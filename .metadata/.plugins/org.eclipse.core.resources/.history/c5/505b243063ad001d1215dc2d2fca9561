@@ -1,0 +1,40 @@
+package JavaDataStructs;
+
+//File Entry.java
+public class GenericClassMultParams2<KeyType, ValueType> {
+	KeyType key;
+	ValueType value;
+
+	public GenericClassMultParams2(KeyType key, ValueType value) {
+		this.key = key;
+		this.value = value;
+	}
+
+	public KeyType getKey() {
+		return key;
+	}
+
+	public ValueType getValue() {
+		return value;
+	}
+
+	public String toString() {
+		return "(" + key + ", " + value + ")";
+	}
+
+	public static void main(String[] args) {
+		GenericClassMultParams2<String, String> phone = new GenericClassMultParams2<String, String>("Alice",
+				"123456789");
+		GenericClassMultParams2<String, Integer> height = new GenericClassMultParams2<String, Integer>("Alice", 167);
+		System.out.println("Phone number: " + "(" + phone.getKey() + ", " + phone.getValue() + ")");
+		System.out.println("Phone number: " + phone);
+		System.out.println("Height: " + height);
+
+		GenericClassMultParams2<String, Boolean> isMarried = new GenericClassMultParams2<String, Boolean>("Alice",
+				true);
+		if (isMarried.getValue())
+			System.out.println(isMarried.getKey() + " is married.");
+		else
+			System.out.println(isMarried.getKey() + " is not married.");
+	}
+}

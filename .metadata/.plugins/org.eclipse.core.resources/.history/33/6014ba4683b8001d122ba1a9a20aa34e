@@ -1,0 +1,16 @@
+2023-02-28 14:28:43,176 INFO  [Log4jSample] New driver instantiated 
+2023-02-28 14:28:43,183 INFO  [Log4jSample] Implicit wait applied on the driver for 10 seconds 
+2023-02-28 14:28:45,743 INFO  [Log4jSample] Web application launched 
+2023-02-28 14:28:45,777 INFO  [Log4jSample] Username entered in the Username text box 
+2023-02-28 14:28:45,820 INFO  [Log4jSample] Password entered in the Password text box 
+2023-02-28 14:28:45,846 INFO  [Log4jSample] Click action performed on Submit button 
+2023-02-28 14:28:46,929 INFO  [Log4jSample] Click action performed on Log out link 
+2023-02-28 14:28:47,193 INFO  [Log4jSample] Browser closed 
+2023-03-01 17:47:43,212 INFO  [Log4jSample] New driver instantiated 
+2023-03-01 17:47:43,218 INFO  [Log4jSample] Implicit wait applied on the driver for 10 seconds 
+2023-03-01 17:47:45,176 INFO  [Log4jSample] Web application launched 
+2023-03-01 17:47:45,212 INFO  [Log4jSample] Username entered in the Username text box 
+2023-03-01 17:47:45,255 INFO  [Log4jSample] Password entered in the Password text box 
+2023-03-01 17:47:45,281 INFO  [Log4jSample] Click action performed on Submit button 
+2023-03-01 17:47:46,353 INFO  [Log4jSample] Click action performed on Log out link 
+2023-03-01 17:47:46,652 INFO  [Log4jSample] Browser closed 

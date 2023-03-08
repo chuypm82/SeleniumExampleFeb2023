@@ -1,0 +1,6 @@
+;_WinWaitActivate("https://the-internet.herokuapp.com/basic_auth - Google Chrome","")
+MouseClick("left",926,174,1)
+Send("admin")
+MouseClick("left",936,220,1)
+Send("admin")
+MouseClick("left",1002,276,1)

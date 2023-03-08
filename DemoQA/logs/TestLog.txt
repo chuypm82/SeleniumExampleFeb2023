@@ -1,0 +1,227 @@
+[1678141465.476][INFO]: Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 15514
+[1678141465.476][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1678141465.783][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1678141465.788][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1678141465.790][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1678141465.795][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\625337\AppData\Local\Temp\scoped_dir15876_1592343129" data:,
+[1678141466.707][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1678141466.708][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+[1678141467.091][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "110.0.5481.178",
+      "chrome": {
+         "chromedriverVersion": "110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839})",
+         "userDataDir": "C:\\Users\\625337\\AppData\\Local\\Temp\\scoped_dir15876_1592343129"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62818"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "6c61743c408095add3af701b2e2ebfb9"
+}
+[1678141467.246][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND Navigate {
+   "url": "https://demoqa.com/automation-practice-form"
+}
+[1678141467.246][INFO]: Waiting for pending navigations...
+[1678141467.247][INFO]: Done waiting for pending navigations. Status: ok
+[1678141467.720][INFO]: Waiting for pending navigations...
+[1678141470.186][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.186][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE Navigate
+[1678141470.211][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1678141470.211][INFO]: Waiting for pending navigations...
+[1678141470.213][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.218][INFO]: Waiting for pending navigations...
+[1678141470.218][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.218][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "86943d47-9745-4b9d-9c86-1262b72eb512"
+}
+[1678141470.224][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND TypeElement {
+   "id": "86943d47-9745-4b9d-9c86-1262b72eb512",
+   "text": "Jesus",
+   "value": [ "J", "e", "s", "u", "s" ]
+}
+[1678141470.224][INFO]: Waiting for pending navigations...
+[1678141470.225][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.250][INFO]: Waiting for pending navigations...
+[1678141470.251][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.251][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE TypeElement
+[1678141470.253][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@id='lastName']"
+}
+[1678141470.253][INFO]: Waiting for pending navigations...
+[1678141470.254][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.260][INFO]: Waiting for pending navigations...
+[1678141470.261][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.261][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "dc0fc680-f2ee-4d37-bc3c-5d4c34bf9a1c"
+}
+[1678141470.264][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND TypeElement {
+   "id": "dc0fc680-f2ee-4d37-bc3c-5d4c34bf9a1c",
+   "text": "Perez",
+   "value": [ "P", "e", "r", "e", "z" ]
+}
+[1678141470.264][INFO]: Waiting for pending navigations...
+[1678141470.264][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.320][INFO]: Waiting for pending navigations...
+[1678141470.320][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.320][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE TypeElement
+[1678141470.323][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1678141470.323][INFO]: Waiting for pending navigations...
+[1678141470.324][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.330][INFO]: Waiting for pending navigations...
+[1678141470.331][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.331][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "86943d47-9745-4b9d-9c86-1262b72eb512"
+}
+[1678141470.333][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND GetElementText {
+   "id": "86943d47-9745-4b9d-9c86-1262b72eb512"
+}
+[1678141470.333][INFO]: Waiting for pending navigations...
+[1678141470.333][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.339][INFO]: Waiting for pending navigations...
+[1678141470.362][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.363][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE GetElementText ""
+[1678141470.365][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@id='lastName']"
+}
+[1678141470.365][INFO]: Waiting for pending navigations...
+[1678141470.366][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.368][INFO]: Waiting for pending navigations...
+[1678141470.368][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.369][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "dc0fc680-f2ee-4d37-bc3c-5d4c34bf9a1c"
+}
+[1678141470.370][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND GetElementText {
+   "id": "dc0fc680-f2ee-4d37-bc3c-5d4c34bf9a1c"
+}
+[1678141470.370][INFO]: Waiting for pending navigations...
+[1678141470.371][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.378][INFO]: Waiting for pending navigations...
+[1678141470.381][INFO]: Done waiting for pending navigations. Status: ok
+[1678141470.381][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE GetElementText ""
+[1678141471.397][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@id='lastName']"
+}
+[1678141471.397][INFO]: Waiting for pending navigations...
+[1678141471.398][INFO]: Done waiting for pending navigations. Status: ok
+[1678141471.400][INFO]: Waiting for pending navigations...
+[1678141471.401][INFO]: Done waiting for pending navigations. Status: ok
+[1678141471.401][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "dc0fc680-f2ee-4d37-bc3c-5d4c34bf9a1c"
+}
+[1678141471.402][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND GetElementText {
+   "id": "dc0fc680-f2ee-4d37-bc3c-5d4c34bf9a1c"
+}
+[1678141471.403][INFO]: Waiting for pending navigations...
+[1678141471.403][INFO]: Done waiting for pending navigations. Status: ok
+[1678141471.405][INFO]: Waiting for pending navigations...
+[1678141471.405][INFO]: Done waiting for pending navigations. Status: ok
+[1678141471.405][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE GetElementText ""
+[1678141472.411][INFO]: [6c61743c408095add3af701b2e2ebfb9] COMMAND CloseWindow {
+}
+[1678141472.599][INFO]: [6c61743c408095add3af701b2e2ebfb9] RESPONSE CloseWindow [  ]

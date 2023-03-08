@@ -1,0 +1,28 @@
+package JavaDataStructs;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDS {
+
+	public static void main(String[] args) {
+		ArrayList<String> words1 = new ArrayList<String>();
+		List<String> words = new ArrayList<String>();
+		
+		words.add("school");
+		words.add(0,"at");
+		
+		String w= words.get(0);
+		
+		System.out.println(words);
+		
+		words.set(1, "work");
+		
+		System.out.println(words);
+		words.remove(0);
+		System.out.println(words);
+		
+
+	}
+
+}

@@ -1,0 +1,77 @@
+package webdriver.advance.tips;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
+public class TestEventHandler2 {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		// Setting the driver path
+		System.out.println("Selenium WebDriver Browser Command - Practice Exercises #2");
+
+		//Creating webDriver instance
+		WebDriver driver= new FirefoxDriver();
+		EventFiringWebDriver eventDriver= new EventFiringWebDriver(driver);
+		
+		EventHandler handler= new EventHandler();
+		
+		String url="https://rahulshettyacademy.com/locatorspractice/";
+		//driver.get(url);
+		eventDriver.get(url);
+		
+		WebElement userName = eventDriver.findElement(By.xpath("//input[@id='inputUsername']"));
+		WebElement pass = eventDriver.findElement(By.xpath("//input[@name='inputPassword']"));
+		
+		userName.sendKeys("Jesus");
+		pass.sendKeys("rahulshettyacademy");
+		
+		
+		WebElement element = eventDriver.findElement(By.xpath("//button[@class='submit signInBtn']"));
+		element.click();
+		
+		
+		
+		WebElement strText = new WebDriverWait(eventDriver,Duration.ofSeconds(5))
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='login-container']/h1")));
+				
+		System.out.println("Found Text: " + strText.getText());
+		
+		eventDriver.register(handler);
+		
+		if(strText.equals("Welcome to Rahul Shetty Academy"))
+			System.out.println("Test PASS");
+		
+		try {
+			Assert.assertEquals(strText.getText(), "Welcome to Rahul Shetty Academy");
+			System.out.println("Assert Pass");
+		}catch (Exception e){
+			System.out.println("Assert Message" + e.getMessage() );
+			System.out.println("Assert Fail");
+		}
+		
+		
+		
+			
+		
+		
+		eventDriver.unregister(handler);
+		
+		Thread.sleep(1000);
+		driver.quit();
+		System.out.println("End of Exercise - only one window closed");
+
+	}
+
+}

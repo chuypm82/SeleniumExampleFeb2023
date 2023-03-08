@@ -1,0 +1,35 @@
+package webdriver.advance.tips;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+public class TestPracticeFormPageObject {
+
+	@Test
+	public void TestFirstAndLastNameFields() throws InterruptedException
+	{
+		// In order to understand how action on WebElements using PageObjects work,
+		// we will save all the logs of chrome driver. Below statement helps us
+		// save all the logs in a file called TestLog.txt
+		System.setProperty("webdriver.chrome.logfile", "logs/TestLog.txt");
+
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://demoqa.com/automation-practice-form");
+
+		// Initialize the Page object
+		PracticeFormPageObject pageObject = PageFactory.initElements(driver, PracticeFormPageObject.class);
+
+		// Write some values to First and Last Name
+		pageObject.firsName.sendKeys("Jesus"); // A FindBy call is triggered to fetch First Name
+		pageObject.lastName.sendKeys("Perez"); // A FindBy call is triggered to fetch Last Name
+
+		// Read values from the Text box.
+		pageObject.firsName.getText(); // A FindBy call is triggered to fetch First Name
+		pageObject.lastName.getText(); // A FindBy call is triggered to fetch Last Name
+
+		Thread.sleep(1000);
+		driver.close();
+		driver.quit();
+	}
+}

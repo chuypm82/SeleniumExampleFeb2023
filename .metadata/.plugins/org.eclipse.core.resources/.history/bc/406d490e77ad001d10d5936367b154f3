@@ -1,0 +1,31 @@
+package webdriver.inter;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Template {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		// Setting the driver path
+		System.out.println("Selenium WebDriver Browser Command - Practice Exercises #2");
+
+		//Creating webDriver instance
+		WebDriver driver= new ChromeDriver();
+		
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		String url="https://rahulshettyacademy.com/seleniumPractise/#/";
+		driver.get(url);
+		
+		driver.findElement(By.xpath("//img[@alt='Cart']")).click();
+				
+		Thread.sleep(1000);
+		driver.quit();
+		System.out.println("End of Exercise - only one window closed");
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package webdriver.inter;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ImplicitWaitS2 {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		// Setting the driver path
+		System.out.println("Selenium WebDriver Browser Command - Practice Exercises #2");
+
+		//Creating webDriver instance
+		WebDriver driver= new ChromeDriver();
+		
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
+		//driver.manage().timeouts().setScriptTimeout(15,TimeUnit.SECONDS);
+		try {
+			((JavascriptExecutor) driver).executeScript("alert('hello world');");
+			((JavascriptExecutor) driver).executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 500);");
+			
+		}catch (Exception e){
+			System.out.println("catched Exeotion:" + e);
+		}
+		
+		
+		String url="https://rahulshettyacademy.com/seleniumPractise/#/";
+		driver.get(url);
+		
+		driver.findElement(By.xpath("//img[@alt='Cart']")).click();
+				
+		Thread.sleep(1000);
+		driver.quit();
+		System.out.println("End of Exercise - only one window closed");
+
+	}
+
+}

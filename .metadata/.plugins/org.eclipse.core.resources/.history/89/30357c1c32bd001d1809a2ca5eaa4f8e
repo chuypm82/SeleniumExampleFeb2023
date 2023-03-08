@@ -1,0 +1,55 @@
+package webdriver.advance.grid;
+
+import java.net.MalformedURLException;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class ParallelTestB {
+	
+	public static RemoteWebDriver driver;
+	public static String appURL = "http://www.google.com";
+	
+	@BeforeClass
+	@Parameters({ "browser" })
+	public void setUp(String browser) throws MalformedURLException {
+		System.out.println("*******************");
+		driver = Browser.getDriver(browser);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().window().maximize();
+	}
+	
+	@Test
+	public void testGooglePageTitleInChrome() {
+		driver.navigate().to("http://www.google.com");
+		String strPageTitle = driver.getTitle();
+		System.out.println("Executing testGooglePageTitleInChrome Class1B");
+		Assert.assertTrue(strPageTitle.equalsIgnoreCase("Google"), "Page title doesn't match");
+	}
+	
+	@Test
+	public void testSearchGoogle() throws InterruptedException {
+		System.out.println("Opening Google..");
+		System.out.println("Executing testSearchGoogle Class2B");
+		driver.navigate().to(appURL);
+		driver.findElement(By.name("q")).sendKeys("Selenium Easy Grid Tutorials");
+		//Thread.sleep(1000);
+		driver.findElement(By.name("btnG")).click();
+		//Thread.sleep(1000);
+	}
+
+	@AfterClass
+	public void tearDown() {
+		if(driver!=null) {
+			System.out.println("Closing browser");
+			driver.quit();
+		}
+	}
+
+}

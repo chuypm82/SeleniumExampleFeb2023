@@ -1,0 +1,35 @@
+package webdriver.advance.tips;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class FlashTestSilkuliCORRUPTEDLIB {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		// Setting the driver path
+		System.out.println("Selenium WebDriver Browser Command - Practice Exercises #2");
+
+		//Creating webDriver instance
+		WebDriver driver= new ChromeDriver();
+		
+		String url="https://rahulshettyacademy.com/AutomationPractice/";
+		driver.get(url);
+		
+		//WebDriverWait  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		//instance of wait is defined
+		
+		WebElement selectGame= 	driver.findElement(By.xpath("//div[contains(@class,'game_thumb')]/a[contains(@href,'Cinderella')]"));
+		
+		selectGame.click();     //Game is selected from home page
+				
+		Thread.sleep(1000);
+		driver.quit();
+		System.out.println("End of Exercise - only one window closed");
+
+	}
+
+}

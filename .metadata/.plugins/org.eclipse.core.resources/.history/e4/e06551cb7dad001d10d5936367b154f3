@@ -1,0 +1,50 @@
+package webdriver.inter;
+
+import java.time.Duration;
+import java.util.Arrays;
+import java.util.List;
+import java.util.NoSuchElementException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class FluentExplicitWait {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\625337\\Documents\\Personal\\Trainings\\Selenium\\Downloads\\chromedriver_win32\\chromedriver.exe");// webdriver.chrome.driver->value
+		WebDriver driver = new ChromeDriver();// to invoke browser (launch). Chrome driver implementing webDriver
+												// interface
+		driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
+		driver.findElement(By.cssSelector("[id='start'] button")).click();
+
+		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver) // FluentWait implements Wait interface
+				.withTimeout(Duration.ofSeconds(30)).pollingEvery(Duration.ofSeconds(3))
+				.ignoring(NoSuchElementException.class); // this method is optional ignoring. This mean, if you come
+															// across this exception, just ignore them
+
+		WebElement foo = wait.until(new Function<WebDriver, WebElement>() {
+
+			public WebElement apply(WebDriver driver) {
+				if (driver.findElement(By.cssSelector("[id='finish'] h4")).isDisplayed())// waiting for an element to
+																							// appear
+					return driver.findElement(By.cssSelector("[id='finish'] h4"));
+				else
+					return null;
+			}
+		});
+		System.out.println(driver.findElement(By.cssSelector("[id='finish'] h4")).isDisplayed());
+		System.out.println(driver.findElement(By.cssSelector("[id='finish'] h4")).getText());
+
+	}
+
+
+}

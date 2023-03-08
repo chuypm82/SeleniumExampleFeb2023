@@ -1,0 +1,49 @@
+package webdriver.advance.tips;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class JavaScriptScrollbyLines {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		// Setting the driver path
+		System.out.println("Selenium WebDriver Browser Command - Practice Exercises #2");
+
+		//Creating webDriver instance
+		WebDriver driver= new FirefoxDriver();
+		
+		String url="https://rahulshettyacademy.com/AutomationPractice/";
+		driver.get(url);
+		driver.manage().window().maximize();
+		Thread.sleep(1000);
+					
+		JavascriptExecutor js = (JavascriptExecutor)driver;	
+		//js.executeScript("document.getElementById('mousehover').scrollIntoView(true);");
+		WebElement targetElement = driver.findElement(By.xpath("//button[@id='mousehover']"));
+		
+		int x = 0;
+
+		while((Double) js.executeScript("return document.getElementById('mousehover').getBoundingClientRect().top") > 0 )
+
+		{
+
+			x = x + 2;
+
+			js.executeScript("window.scrollByLines(2)");
+
+			System.out.println("Client top is = " + (Double) js.executeScript("return document.getElementById('mousehover').getBoundingClientRect().top"));			
+
+		}
+		
+		Thread.sleep(3000);
+		driver.quit();
+		System.out.println("End of Exercise - only one window closed");
+
+	}
+
+}

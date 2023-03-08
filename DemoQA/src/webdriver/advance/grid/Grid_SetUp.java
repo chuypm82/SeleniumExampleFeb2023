@@ -1,0 +1,34 @@
+package webdriver.advance.grid;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
+public class Grid_SetUp {
+
+	public static void main(String[] args) throws InterruptedException, MalformedURLException {
+
+		// Setting the driver path
+		System.out.println("Selenium WebDriver Browser Command - Practice Exercises #2");
+
+		WebDriverManager.firefoxdriver().setup();
+		DesiredCapabilities caps = new DesiredCapabilities();
+		caps.setBrowserName("chrome");		
+		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.19:4444"), caps);
+		driver.get("http://google.com");
+		System.out.println(driver.getTitle());
+		driver.findElement(By.name("q")).sendKeys("Jesus");
+		Thread.sleep(1000);
+		driver.close();
+		System.out.println("End of Exercise - only one window closed");
+
+	}
+
+}

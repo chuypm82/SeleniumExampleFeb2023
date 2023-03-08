@@ -1,0 +1,16 @@
+2023-03-01 18:08:01,457 INFO  [Type3ManualViaXmlFile] New driver instantiated 
+2023-03-01 18:08:01,463 INFO  [Type3ManualViaXmlFile] Implicit wait applied on the driver for 10 seconds 
+2023-03-01 18:08:03,365 INFO  [Type3ManualViaXmlFile] Web application launched 
+2023-03-01 18:08:03,409 INFO  [Type3ManualViaXmlFile] Username entered in the Username text box 
+2023-03-01 18:08:03,449 INFO  [Type3ManualViaXmlFile] Password entered in the Password text box 
+2023-03-01 18:08:03,474 INFO  [Type3ManualViaXmlFile] Click action performed on Submit button 
+2023-03-01 18:08:04,544 INFO  [Type3ManualViaXmlFile] Click action performed on Log out link 
+2023-03-01 18:08:04,782 INFO  [Type3ManualViaXmlFile] Browser closed 
+2023-03-01 18:21:35,991 INFO  [Type3ManualViaXmlFile] New driver instantiated 
+2023-03-01 18:21:35,998 INFO  [Type3ManualViaXmlFile] Implicit wait applied on the driver for 10 seconds 
+2023-03-01 18:21:37,973 INFO  [Type3ManualViaXmlFile] Web application launched 
+2023-03-01 18:21:38,007 INFO  [Type3ManualViaXmlFile] Username entered in the Username text box 
+2023-03-01 18:21:38,050 INFO  [Type3ManualViaXmlFile] Password entered in the Password text box 
+2023-03-01 18:21:38,077 INFO  [Type3ManualViaXmlFile] Click action performed on Submit button 
+2023-03-01 18:21:39,152 INFO  [Type3ManualViaXmlFile] Click action performed on Log out link 
+2023-03-01 18:21:39,417 INFO  [Type3ManualViaXmlFile] Browser closed 

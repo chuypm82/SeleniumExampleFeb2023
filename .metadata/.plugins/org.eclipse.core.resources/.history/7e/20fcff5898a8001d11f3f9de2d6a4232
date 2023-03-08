@@ -1,0 +1,57 @@
+package JavaDataStructs;
+
+import java.util.Hashtable;
+
+class ContactBook {
+	Hashtable<String, String> contacts;
+	
+	ContactBook(){
+		contacts = new Hashtable<String, String>();
+	}
+	
+	public boolean hasEmailAddress(String emailAddress) {
+		return contacts.contains(emailAddress);
+	}
+	
+	public boolean hasName(String name) {
+		return contacts.contains(name);
+	}
+	
+	public int addContact(String name, String emailAddress) {
+		if(hasEmailAddress(emailAddress)){
+			System.out.println("Cannot add ["+name+"] Emal adress ["+emailAddress+"] existed" );
+			return 0;
+		}
+		else if(hasName(name)) {
+			System.out.println("Name ["+name+"] existed");
+			return 0;
+		}else {
+			contacts.put(name, emailAddress);
+			return 1;
+		}
+	}
+	
+	public void listAllContacts() {
+		System.out.println("> Current contact list \n");
+		System.out.printf("%-10s | %-20s \n", "Name", "Email Address");
+		for(String name : contacts.keySet()) {
+			String emailAddress= contacts.get(name);
+			System.out.printf("%-10s|%-20s \n", name, emailAddress);
+		}
+	}
+	
+
+
+}
+
+public class HashTableDS {
+
+	public static void main(String[] args) {
+		ContactBook book= new ContactBook();
+		book.addContact("Alice", "alice@example.com");
+		
+		book.listAllContacts();
+
+	}
+
+}

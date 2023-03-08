@@ -1,0 +1,8 @@
+01-03-2023 14:11:45 INFO [Log4jSample]: New driver instantiated
+01-03-2023 14:11:45 INFO [Log4jSample]: Implicit wait applied on the driver for 10 seconds
+01-03-2023 14:11:47 INFO [Log4jSample]: Web application launched
+01-03-2023 14:11:47 INFO [Log4jSample]: Username entered in the Username text box
+01-03-2023 14:11:47 INFO [Log4jSample]: Password entered in the Password text box
+01-03-2023 14:11:47 INFO [Log4jSample]: Click action performed on Submit button
+01-03-2023 14:11:48 INFO [Log4jSample]: Click action performed on Log out link
+01-03-2023 14:11:49 INFO [Log4jSample]: Browser closed

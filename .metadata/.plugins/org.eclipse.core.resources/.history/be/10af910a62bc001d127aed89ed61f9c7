@@ -1,0 +1,47 @@
+package webdriver.advance.tips;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+
+public class PracticeFormPageObject {
+	
+	@FindBy(how = How.NAME, using = "firstname")
+	public WebElement firsName;
+
+	@FindBy(how = How.NAME, using = "lastname")
+	public WebElement lastName;
+	
+	
+	
+	@Test
+	public TestFirstAndLastNameFields()
+	{
+		// In order to understand how action on WebElements using PageObjects work,
+		// we will save all the logs of chrome driver. Below statement helps us
+		// save all the logs in a file called TestLog.txt
+		System.setProperty("webdriver.chrome.logfile", "TestLog.txt");
+
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://toolsqa.com/automation-practice-form/");
+
+		// Initialize the Page object
+		PracticeFormPageObject pageObject = PageFactory.initElements(driver, PracticeFormPageObject.class);
+
+		// Write some values to First and Last Name
+		pageObject.firsName.sendKeys("Virender"); // A FindBy call is triggered to fetch First Name
+		pageObject.lastName.sendKeys("Singh"); // A FindBy call is triggered to fetch Last Name
+
+		// Read values from the Text box.
+		pageObject.firsName.getText(); // A FindBy call is triggered to fetch First Name
+		pageObject.lastName.getText(); // A FindBy call is triggered to fetch Last Name
+
+		driver.close();
+		driver.quit();
+	}
+
+}
+
+
+

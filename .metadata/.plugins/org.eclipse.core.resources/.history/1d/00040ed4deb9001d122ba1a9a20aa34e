@@ -1,0 +1,74 @@
+package webdriver.inter.tricks;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrokenLinks {
+
+	public static void main(String[] args) throws InterruptedException, IOException {
+
+		// Setting the driver path
+		System.out.println("Selenium WebDriver Browser Command - Practice Exercises #2");
+
+		// Creating webDriver instance
+		WebDriver driver = new ChromeDriver();
+
+		//String url = "http://demo.guru99.com/test/link.html";
+		String url = "https://rahulshettyacademy.com/AutomationPractice/";
+		driver.get(url);
+
+		String link, linkText = "";
+		List<WebElement> allURLs = driver.findElements(By.tagName("a"));
+		System.out.println("Total links on the Wb Page: " + allURLs.size());
+		
+		for(WebElement e : allURLs) {
+			link=e.getAttribute("href");
+			linkText= e.getText();
+			verifyLinks(link, linkText);;
+		}
+
+		/*// We will iterate through the list and will check the elements in the list.
+		Iterator<WebElement> iterator = allURLs.iterator();
+		while (iterator.hasNext()) {
+			link = iterator.next().getText();
+			System.out.println(url);
+		}*/
+
+		Thread.sleep(1000);
+		//driver.quit();
+		System.out.println("End of Exercise - only one window closed");
+
+	}
+	
+	  public static void verifyLinks(String linkUrl, String linkText)
+	    {
+	        try
+	        {
+	            URL url = new URL(linkUrl);// it will throw an error if link is blank
+
+	            //Now we will be creating url connection and getting the response code
+	            HttpURLConnection httpURLConnect=(HttpURLConnection)url.openConnection();
+	            httpURLConnect.setConnectTimeout(5000);
+	            httpURLConnect.connect();
+	            if(httpURLConnect.getResponseCode()>=400)
+	            {
+	            	System.out.println(linkText+" - "+linkUrl+" - "+httpURLConnect.getResponseMessage()+" - is a broken link");
+	            }    
+	       
+	            //Fetching and Printing the response code obtained
+	            else{
+	                System.out.println(linkText+" - "+linkUrl+" - "+httpURLConnect.getResponseMessage()+ " - is a valid link");
+	            }
+	        }catch (Exception e) {
+	        	System.out.println(linkText+" - "+linkUrl+" - is not a link"); // catched error if link is blank
+	      }
+	   }
+
+}
