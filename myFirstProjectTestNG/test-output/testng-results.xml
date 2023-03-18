@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-18T19:23:50 EDT" name="Listener with ExtentReports Test" finished-at="2023-03-18T19:24:02 EDT" duration-ms="12568">
+    <groups>
+    </groups>
+    <test started-at="2023-03-18T19:23:50 EDT" name="ExecutingListeners" finished-at="2023-03-18T19:23:57 EDT" duration-ms="6834">
+      <class name="Integrated.SSListenerParallelTSafe">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6c4906d3]" started-at="2023-03-18T19:23:50 EDT" name="beforeTest" finished-at="2023-03-18T19:23:53 EDT" duration-ms="2669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="OpenBrowser()[pri:1, instance:Integrated.SSListenerParallelTSafe@6c4906d3]" started-at="2023-03-18T19:23:53 EDT" name="OpenBrowser" finished-at="2023-03-18T19:23:54 EDT" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6c4906d3]" started-at="2023-03-18T19:23:54 EDT" name="afterTest" finished-at="2023-03-18T19:23:57 EDT" duration-ms="2342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Integrated.SSListenerParallelTSafe -->
+    </test> <!-- ExecutingListeners -->
+    <test started-at="2023-03-18T19:23:57 EDT" name="ExecutingListeners2" finished-at="2023-03-18T19:24:02 EDT" duration-ms="5503">
+      <class name="Integrated.SSListenerParallelTSafe">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@126253fd]" started-at="2023-03-18T19:23:57 EDT" name="beforeTest" finished-at="2023-03-18T19:23:59 EDT" duration-ms="1747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="OpenBrowser()[pri:1, instance:Integrated.SSListenerParallelTSafe@126253fd]" started-at="2023-03-18T19:23:59 EDT" name="OpenBrowser" finished-at="2023-03-18T19:24:00 EDT" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@126253fd]" started-at="2023-03-18T19:24:00 EDT" name="afterTest" finished-at="2023-03-18T19:24:02 EDT" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Integrated.SSListenerParallelTSafe -->
+    </test> <!-- ExecutingListeners2 -->
+  </suite> <!-- Listener with ExtentReports Test -->
+</testng-results>

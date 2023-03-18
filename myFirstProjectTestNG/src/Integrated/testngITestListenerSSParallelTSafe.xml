@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Listener with ExtentReports Test">
+	<listeners>
+		<listener class-name="Integrated.ListenersTestNGTSafe"></listener>
+	</listeners>
+	<test name="ExecutingListeners">
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class name="Integrated.SSListenerParallelTSafe" />
+		</classes>
+	</test>
+	<test name="ExecutingListeners2">
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class name="Integrated.SSListenerParallelTSafe" />
+		</classes>
+	</test>
+</suite>

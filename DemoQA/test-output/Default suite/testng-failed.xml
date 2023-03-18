@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.advance.grid.ParallelTestB">
+      <class name="webdriver.advance.screenshots.SSListener">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testSearchGoogle"/>
-          <include name="testGooglePageTitleInChrome"/>
+          <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- webdriver.advance.grid.ParallelTestB -->
+      </class> <!-- webdriver.advance.screenshots.SSListener -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

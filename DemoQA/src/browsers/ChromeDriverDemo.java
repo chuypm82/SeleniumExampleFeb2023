@@ -2,6 +2,7 @@ package browsers;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 
 
@@ -16,6 +17,7 @@ public class ChromeDriverDemo {
 				
 		//Creating webDriver instance
 		WebDriver driver= new ChromeDriver();
+		
 		
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
 		

@@ -6,8 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="xpath"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="xml"/>
+			<item value="onStart method started"/>
+			<item value="New Test Started"/>
+			<item value="onFinish"/>
+			<item value="ExcelUtils"/>
+			<item value="match"/>
 			<item value="xpath"/>
 			<item value="css"/>
 			<item value="cache"/>
@@ -17,12 +23,6 @@
 			<item value="FindElement"/>
 			<item value="Find happened on"/>
 			<item value="Just before finding element"/>
-			<item value="afterClickOn"/>
-			<item value="About to click"/>
-			<item value="afterNavigateTo"/>
-			<item value="beforeNavigateTo"/>
-			<item value="afterChangeValueOf"/>
-			<item value="not"/>
 		</list>
 		<list key="replacehistory">
 			<item value="driver"/>
