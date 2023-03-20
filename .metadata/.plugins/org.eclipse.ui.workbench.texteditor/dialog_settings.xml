@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="Login"/>
 		<list key="findhistory">
+			<item value="Login"/>
 			<item value="xml"/>
 			<item value="onStart method started"/>
 			<item value="New Test Started"/>
@@ -22,7 +23,6 @@
 			<item value="RESPONSE GetElementText"/>
 			<item value="FindElement"/>
 			<item value="Find happened on"/>
-			<item value="Just before finding element"/>
 		</list>
 		<list key="replacehistory">
 			<item value="driver"/>

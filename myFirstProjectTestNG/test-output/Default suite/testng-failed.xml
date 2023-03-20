@@ -5,9 +5,9 @@
     <classes>
       <class name="Integrated.SSListenerParallelTSafe">
         <methods>
-          <include name="OpenBrowser"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="Login"/>
         </methods>
       </class> <!-- Integrated.SSListenerParallelTSafe -->
     </classes>
