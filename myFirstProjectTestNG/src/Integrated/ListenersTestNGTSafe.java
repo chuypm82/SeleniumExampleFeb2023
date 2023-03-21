@@ -11,9 +11,9 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 //import com.relevantcodes.extentreports.LogStatus;
 
-public class ListenersTestNGTSafe extends SSListenerParallelTSafe implements ITestListener {
+public class ListenersTestNGTSafe extends SSListenerParallelTSafe2 implements ITestListener {
 
-	WebDriver driver, driver2;
+	//WebDriver driver, driver2;
 	ExtentTest test; //holds entry into report
 	ExtentReports extent= ExtentReporterNG.getReportObject();
 	ThreadLocal<ExtentTest> extentTest= new ThreadLocal<ExtentTest>();
@@ -30,6 +30,14 @@ public class ListenersTestNGTSafe extends SSListenerParallelTSafe implements ITe
 		//test.log(LogStatus.PASS, "Test Case: " + result.getName() + " ---> Status: PASSED");
 		//test.log(Status.PASS, "Test Pass");// if we dont add this it does not matter
 		//extentTest.get().log(Status.PASS, "Test Pass");// if we dont add this it does not matter
+		/*
+		try {
+			driver= (WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
+		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+		
 	}
 	
 	public void onTestFailure(ITestResult result) {
@@ -39,12 +47,24 @@ public class ListenersTestNGTSafe extends SSListenerParallelTSafe implements ITe
 		//driver = (WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
 		//test.fail(result.getThrowable());// provides info about the failure
 		extentTest.get().fail(result.getThrowable());
+		
+/*
 		try {
 			driver= (WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
 		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}*/
+		
+		ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+		
+		try {
+			driver= (ThreadLocal<WebDriver>) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
+		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
 		}
+		
 		String filePath=null;
 		try {
 			filePath = getScreenshot(result.getMethod().getMethodName(), driver);

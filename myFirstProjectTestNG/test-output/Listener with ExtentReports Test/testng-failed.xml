@@ -5,16 +5,16 @@
     <listener class-name="Integrated.ListenersTestNGTSafe"/>
     <listener class-name="Integrated.MyTransformer"/>
   </listeners>
-  <test thread-count="5" parallel="methods" name="ExecutingListeners(failed)">
+  <test thread-count="5" name="ExecutingListeners(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="Integrated.SSListenerParallelTSafe">
+      <class name="Integrated.SSListenerParallelTSafe2">
         <methods>
+          <include name="OpenBrowserShopNegatvie"/>
           <include name="afterTest"/>
-          <include name="OpenBrowserNegative"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- Integrated.SSListenerParallelTSafe -->
+      </class> <!-- Integrated.SSListenerParallelTSafe2 -->
     </classes>
   </test> <!-- ExecutingListeners(failed) -->
 </suite> <!-- Failed suite [Listener with ExtentReports Test] -->

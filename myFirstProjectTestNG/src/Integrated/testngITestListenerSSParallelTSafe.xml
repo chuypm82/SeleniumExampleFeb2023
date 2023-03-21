@@ -2,13 +2,13 @@
 <suite name="Listener with ExtentReports Test">
 	<listeners>
 		<listener class-name="Integrated.ListenersTestNGTSafe"></listener>
-		<listener class-name="Integrated.MyTransformer"></listener>
+		<!-- <listener class-name="Integrated.MyTransformer"></listener> -->
 		<!-- -->
 	</listeners>
-	<test name="ExecutingListeners" parallel="methods"  thread-count="2">
+	<test name="ExecutingListeners" parallel="false" thread-count="5">
 		<parameter name="browserName" value="chrome"></parameter>
 		<classes>
-			<class name="Integrated.SSListenerParallelTSafe" />
+			<class name="Integrated.SSListenerParallelTSafe2" />
 		</classes>
 	</test>
 </suite>

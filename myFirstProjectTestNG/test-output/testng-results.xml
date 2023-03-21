@@ -1,65 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="0" total="9" passed="7" failed="1" skipped="0">
+<testng-results retried="3" ignored="0" total="18" passed="12" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-19T16:33:39 EDT" name="Listener with ExtentReports Test" finished-at="2023-03-19T16:34:14 EDT" duration-ms="35211">
+  <suite started-at="2023-03-21T15:42:04 EDT" name="test-production-smoke" finished-at="2023-03-21T15:43:14 EDT" duration-ms="69300">
     <groups>
+      <group name="SMOKE_TEST">
+        <method signature="LandingPageTest.Login()[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" name="Login" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.LoginDP(java.lang.String,java.lang.String)[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" name="LoginDP" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.OpenBrowser()[pri:1, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" name="OpenBrowser" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.OpenBrowserNegative()[pri:2, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" name="OpenBrowserNegative" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.Login()[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" name="Login" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.LoginDP(java.lang.String,java.lang.String)[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" name="LoginDP" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.OpenBrowser()[pri:1, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" name="OpenBrowser" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.OpenBrowserNegative()[pri:2, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" name="OpenBrowserNegative" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.Login()[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" name="Login" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.LoginDP(java.lang.String,java.lang.String)[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" name="LoginDP" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.OpenBrowser()[pri:1, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" name="OpenBrowser" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+        <method signature="LandingPageTest.OpenBrowserNegative()[pri:2, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" name="OpenBrowserNegative" class="ParallelBrowsersWorksWell.LandingPageTest"/>
+      </group> <!-- SMOKE_TEST -->
     </groups>
-    <test started-at="2023-03-19T16:33:39 EDT" name="ExecutingListeners" finished-at="2023-03-19T16:34:14 EDT" duration-ms="35211">
-      <class name="Integrated.SSListenerParallelTSafe">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:39 EDT" name="beforeTest" finished-at="2023-03-19T16:33:41 EDT" duration-ms="2346" status="PASS">
+    <test started-at="2023-03-21T15:42:04 EDT" name="ProductionTest" finished-at="2023-03-21T15:42:57 EDT" duration-ms="52366">
+      <class name="ParallelBrowsersWorksWell.LandingPageTest">
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:04 EDT" name="startDriver" finished-at="2023-03-21T15:42:10 EDT" duration-ms="5225" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:40 EDT" name="beforeTest" finished-at="2023-03-19T16:33:41 EDT" duration-ms="1494" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="OpenBrowser()[pri:1, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:41 EDT" name="OpenBrowser" finished-at="2023-03-19T16:33:43 EDT" duration-ms="1851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:2, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:41 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-19T16:33:44 EDT" duration-ms="3251" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jesus1]]>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.OpenBrowser() throws java.lang.Exception]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[rahulshettyacademy]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginDP -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:43 EDT" name="afterTest" finished-at="2023-03-19T16:33:45 EDT" duration-ms="2325" status="PASS">
+        </test-method> <!-- startDriver -->
+        <test-method signature="OpenBrowser()[pri:1, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:10 EDT" name="OpenBrowser" finished-at="2023-03-21T15:42:15 EDT" duration-ms="5091" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:44 EDT" name="afterTest" finished-at="2023-03-19T16:33:46 EDT" duration-ms="2016" status="PASS">
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:15 EDT" name="stopDriver" finished-at="2023-03-21T15:42:16 EDT" duration-ms="796" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:45 EDT" name="beforeTest" finished-at="2023-03-19T16:33:46 EDT" duration-ms="851" status="PASS">
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:16 EDT" name="startDriver" finished-at="2023-03-21T15:42:20 EDT" duration-ms="4450" status="PASS">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
               <value>
                 <![CDATA[chrome]]>
               </value>
@@ -67,20 +60,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method retried="true" signature="OpenBrowserNegative()[pri:2, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:46 EDT" name="OpenBrowserNegative" finished-at="2023-03-19T16:33:49 EDT" duration-ms="2685" status="SKIP">
+        </test-method> <!-- startDriver -->
+        <test-method retried="true" signature="OpenBrowserNegative()[pri:2, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:20 EDT" name="OpenBrowserNegative" finished-at="2023-03-21T15:42:24 EDT" duration-ms="3635" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Titles of the website do not match expected [Rahul Shetty Academy - Login pag] but found [Rahul Shetty Academy - Login page]]]>
+              <![CDATA[Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Titles of the website do not match expected [Rahul Shetty Academy - Login pag] but found [Rahul Shetty Academy - Login page]
+              <![CDATA[java.lang.AssertionError: Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at Integrated.SSListenerParallelTSafe.OpenBrowserNegative(SSListenerParallelTSafe.java:54)
+at ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative(LandingPageTest.java:50)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -91,6 +84,14 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1589)
@@ -100,65 +101,39 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowserNegative -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:46 EDT" name="beforeTest" finished-at="2023-03-19T16:33:47 EDT" duration-ms="897" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:24 EDT" name="stopDriver" finished-at="2023-03-21T15:42:25 EDT" duration-ms="615" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:2, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:47 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-19T16:33:50 EDT" duration-ms="2918" status="PASS">
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:25 EDT" name="startDriver" finished-at="2023-03-21T15:42:30 EDT" duration-ms="5130" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Jesus2]]>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative() throws java.lang.Exception]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[rahulshettyacademy]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDP -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:49 EDT" name="afterTest" finished-at="2023-03-19T16:33:51 EDT" duration-ms="2306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:50 EDT" name="afterTest" finished-at="2023-03-19T16:33:52 EDT" duration-ms="2003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:51 EDT" name="beforeTest" finished-at="2023-03-19T16:33:52 EDT" duration-ms="950" status="PASS">
-          <params>
-            <param index="0">
-              <value>
                 <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="OpenBrowserNegative()[pri:2, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:52 EDT" name="OpenBrowserNegative" finished-at="2023-03-19T16:33:59 EDT" duration-ms="6487" status="FAIL">
+        </test-method> <!-- startDriver -->
+        <test-method signature="OpenBrowserNegative()[pri:2, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:30 EDT" name="OpenBrowserNegative" finished-at="2023-03-21T15:42:33 EDT" duration-ms="2886" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Titles of the website do not match expected [Rahul Shetty Academy - Login pag] but found [Rahul Shetty Academy - Login page]]]>
+              <![CDATA[Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Titles of the website do not match expected [Rahul Shetty Academy - Login pag] but found [Rahul Shetty Academy - Login page]
+              <![CDATA[java.lang.AssertionError: Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at Integrated.SSListenerParallelTSafe.OpenBrowserNegative(SSListenerParallelTSafe.java:54)
+at ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative(LandingPageTest.java:50)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -169,6 +144,14 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1589)
@@ -178,111 +161,595 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowserNegative -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:52 EDT" name="beforeTest" finished-at="2023-03-19T16:33:53 EDT" duration-ms="923" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:33 EDT" name="stopDriver" finished-at="2023-03-21T15:42:34 EDT" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:2, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:33:53 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-19T16:34:01 EDT" duration-ms="7528" status="PASS">
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:34 EDT" name="startDriver" finished-at="2023-03-21T15:42:39 EDT" duration-ms="5396" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Jesus3]]>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.Login() throws java.lang.InterruptedException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[rahulshettyacademy]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDP -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:00 EDT" name="afterTest" finished-at="2023-03-19T16:34:02 EDT" duration-ms="2503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:01 EDT" name="afterTest" finished-at="2023-03-19T16:34:03 EDT" duration-ms="2005" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:02 EDT" name="beforeTest" finished-at="2023-03-19T16:34:03 EDT" duration-ms="961" status="PASS">
-          <params>
-            <param index="0">
-              <value>
                 <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:03 EDT" name="beforeTest" finished-at="2023-03-19T16:34:04 EDT" duration-ms="1140" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="OpenBrowserSecond()[pri:3, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:03 EDT" name="OpenBrowserSecond" finished-at="2023-03-19T16:34:05 EDT" duration-ms="2503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowserSecond -->
-        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:2, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:04 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-19T16:34:07 EDT" duration-ms="2968" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jesus4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rahulshettyacademy]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDP -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:05 EDT" name="afterTest" finished-at="2023-03-19T16:34:08 EDT" duration-ms="2270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:07 EDT" name="afterTest" finished-at="2023-03-19T16:34:09 EDT" duration-ms="2014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:08 EDT" name="beforeTest" finished-at="2023-03-19T16:34:09 EDT" duration-ms="920" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="Login()[pri:4, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:09 EDT" name="Login" finished-at="2023-03-19T16:34:12 EDT" duration-ms="3051" status="PASS">
+        </test-method> <!-- startDriver -->
+        <test-method signature="Login()[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:39 EDT" name="Login" finished-at="2023-03-21T15:42:42 EDT" duration-ms="3250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Integrated.SSListenerParallelTSafe@6b695b06]" started-at="2023-03-19T16:34:12 EDT" name="afterTest" finished-at="2023-03-19T16:34:14 EDT" duration-ms="2328" status="PASS">
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:43 EDT" name="stopDriver" finished-at="2023-03-21T15:42:43 EDT" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- Integrated.SSListenerParallelTSafe -->
-    </test> <!-- ExecutingListeners -->
-  </suite> <!-- Listener with ExtentReports Test -->
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:43 EDT" name="startDriver" finished-at="2023-03-21T15:42:52 EDT" duration-ms="8337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.LoginDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:43 EDT" name="startDriver" finished-at="2023-03-21T15:42:51 EDT" duration-ms="7635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.LoginDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:51 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-21T15:42:56 EDT" duration-ms="4929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chuy2@bah.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello1234!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDP -->
+        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:52 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-21T15:42:56 EDT" duration-ms="4025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chuy@bah.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello1234!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDP -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:56 EDT" name="stopDriver" finished-at="2023-03-21T15:42:57 EDT" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@4007f65e]" started-at="2023-03-21T15:42:56 EDT" name="stopDriver" finished-at="2023-03-21T15:42:57 EDT" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- ParallelBrowsersWorksWell.LandingPageTest -->
+    </test> <!-- ProductionTest -->
+    <test started-at="2023-03-21T15:42:04 EDT" name="ProductionTest3" finished-at="2023-03-21T15:42:58 EDT" duration-ms="53568">
+      <class name="ParallelBrowsersWorksWell.LandingPageTest">
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:04 EDT" name="startDriver" finished-at="2023-03-21T15:42:10 EDT" duration-ms="5225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.OpenBrowser() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="OpenBrowser()[pri:1, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:10 EDT" name="OpenBrowser" finished-at="2023-03-21T15:42:15 EDT" duration-ms="5644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:16 EDT" name="stopDriver" finished-at="2023-03-21T15:42:16 EDT" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:16 EDT" name="startDriver" finished-at="2023-03-21T15:42:20 EDT" duration-ms="3990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method retried="true" signature="OpenBrowserNegative()[pri:2, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:20 EDT" name="OpenBrowserNegative" finished-at="2023-03-21T15:42:24 EDT" duration-ms="3829" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative(LandingPageTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowserNegative -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:24 EDT" name="stopDriver" finished-at="2023-03-21T15:42:25 EDT" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:25 EDT" name="startDriver" finished-at="2023-03-21T15:42:30 EDT" duration-ms="4946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="OpenBrowserNegative()[pri:2, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:30 EDT" name="OpenBrowserNegative" finished-at="2023-03-21T15:42:33 EDT" duration-ms="3067" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative(LandingPageTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowserNegative -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:33 EDT" name="stopDriver" finished-at="2023-03-21T15:42:34 EDT" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:34 EDT" name="startDriver" finished-at="2023-03-21T15:42:39 EDT" duration-ms="5398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="Login()[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:39 EDT" name="Login" finished-at="2023-03-21T15:42:42 EDT" duration-ms="3181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:43 EDT" name="stopDriver" finished-at="2023-03-21T15:42:43 EDT" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:43 EDT" name="startDriver" finished-at="2023-03-21T15:42:52 EDT" duration-ms="8822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.LoginDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:43 EDT" name="startDriver" finished-at="2023-03-21T15:42:49 EDT" duration-ms="5381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.LoginDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:49 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-21T15:42:54 EDT" duration-ms="4869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chuy@bah.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello1234!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDP -->
+        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:52 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-21T15:42:57 EDT" duration-ms="5049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chuy2@bah.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello1234!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDP -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:54 EDT" name="stopDriver" finished-at="2023-03-21T15:42:54 EDT" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@14dd7b39]" started-at="2023-03-21T15:42:57 EDT" name="stopDriver" finished-at="2023-03-21T15:42:58 EDT" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- ParallelBrowsersWorksWell.LandingPageTest -->
+    </test> <!-- ProductionTest3 -->
+    <test started-at="2023-03-21T15:42:04 EDT" name="ProductionTest2" finished-at="2023-03-21T15:43:14 EDT" duration-ms="69300">
+      <class name="ParallelBrowsersWorksWell.LandingPageTest">
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:04 EDT" name="startDriver" finished-at="2023-03-21T15:42:11 EDT" duration-ms="6502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.OpenBrowser() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="OpenBrowser()[pri:1, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:11 EDT" name="OpenBrowser" finished-at="2023-03-21T15:42:15 EDT" duration-ms="4291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:15 EDT" name="stopDriver" finished-at="2023-03-21T15:42:19 EDT" duration-ms="3602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:19 EDT" name="startDriver" finished-at="2023-03-21T15:42:23 EDT" duration-ms="4028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method retried="true" signature="OpenBrowserNegative()[pri:2, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:23 EDT" name="OpenBrowserNegative" finished-at="2023-03-21T15:42:27 EDT" duration-ms="4201" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative(LandingPageTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowserNegative -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:27 EDT" name="stopDriver" finished-at="2023-03-21T15:42:31 EDT" duration-ms="3542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:31 EDT" name="startDriver" finished-at="2023-03-21T15:42:35 EDT" duration-ms="3722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="OpenBrowserNegative()[pri:2, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:35 EDT" name="OpenBrowserNegative" finished-at="2023-03-21T15:42:40 EDT" duration-ms="5264" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Titles of the website do not match expected [Let's Shoop] but found [Let's Shop]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at ParallelBrowsersWorksWell.LandingPageTest.OpenBrowserNegative(LandingPageTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowserNegative -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:40 EDT" name="stopDriver" finished-at="2023-03-21T15:42:44 EDT" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:44 EDT" name="startDriver" finished-at="2023-03-21T15:42:50 EDT" duration-ms="5980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="Login()[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:50 EDT" name="Login" finished-at="2023-03-21T15:42:58 EDT" duration-ms="8531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:42:58 EDT" name="stopDriver" finished-at="2023-03-21T15:43:00 EDT" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:43:00 EDT" name="startDriver" finished-at="2023-03-21T15:43:04 EDT" duration-ms="4187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.LoginDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.reflect.Method,java.lang.String)[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:43:00 EDT" name="startDriver" finished-at="2023-03-21T15:43:04 EDT" duration-ms="4097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ParallelBrowsersWorksWell.LandingPageTest.LoginDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:43:04 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-21T15:43:10 EDT" duration-ms="6709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chuy2@bah.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello1234!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDP -->
+        <test-method signature="LoginDP(java.lang.String,java.lang.String)[pri:3, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:43:04 EDT" name="LoginDP" data-provider="Authentication" finished-at="2023-03-21T15:43:10 EDT" duration-ms="6211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chuy@bah.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello1234!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDP -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:43:10 EDT" name="stopDriver" finished-at="2023-03-21T15:43:12 EDT" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:ParallelBrowsersWorksWell.LandingPageTest@1f9e9475]" started-at="2023-03-21T15:43:11 EDT" name="stopDriver" finished-at="2023-03-21T15:43:14 EDT" duration-ms="3161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- ParallelBrowsersWorksWell.LandingPageTest -->
+    </test> <!-- ProductionTest2 -->
+  </suite> <!-- test-production-smoke -->
 </testng-results>

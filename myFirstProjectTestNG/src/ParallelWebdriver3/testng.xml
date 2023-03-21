@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test-production-smoke" parallel="tests" thread-count="3">
+	<listeners>
+		<listener class-name="ParallelWebdriver3.ListenerITest"></listener>
+		<listener class-name="ParallelWebdriver3.MyTransformer"></listener>
+		<!-- -->
+	</listeners>
+	<test name="ProductionTest" verbose="1" parallel="false" thread-count="3">
+		<parameter name="browserName" value="chrome"></parameter>
+		<groups>
+			<run>
+				<include name="SMOKE_TEST"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="ParallelWebdriver3.LandingPageTest" />
+		</classes>
+	</test>
+	<test name="ProductionTest2" verbose="1" parallel="false" thread-count="3">
+		<parameter name="browserName" value="firefox"></parameter>
+		<groups>
+			<run>
+				<include name="SMOKE_TEST"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="ParallelWebdriver3.LandingPageTest" />
+		</classes>
+	</test>
+	<test name="ProductionTest3" verbose="1" parallel="false" thread-count="3">
+		<parameter name="browserName" value="edge"></parameter>
+		<groups>
+			<run>
+				<include name="SMOKE_TEST"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="ParallelWebdriver3.LandingPageTest" />
+		</classes>
+	</test>
+</suite>

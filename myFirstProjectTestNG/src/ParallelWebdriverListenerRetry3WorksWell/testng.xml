@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test-production-smoke" parallel="tests" thread-count="3">
+	<listeners>
+		<listener class-name="ParallelWebdriverListenerRetry3WorksWell.ListenerITest"></listener>
+		<listener class-name="ParallelWebdriverListenerRetry3WorksWell.MyTransformer"></listener>
+		<!-- -->
+	</listeners>
+	<test name="ProductionTest" verbose="1" parallel="methods" thread-count="3">
+		<groups>
+			<run>
+				<include name="SMOKE_TEST"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="ParallelWebdriverListenerRetry3WorksWell.LandingPageTest" />
+		</classes>
+	</test>
+	<test name="ProductionTest2" verbose="1" parallel="methods" thread-count="3">
+		<groups>
+			<run>
+				<include name="SMOKE_TEST"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="ParallelWebdriverListenerRetry3WorksWell.LandingPageTest" />
+		</classes>
+	</test>
+</suite>

@@ -32,45 +32,84 @@ public class SSListenerParallelTSafe {
 		driver = ThreadDriverManager.CreateDriverThread(browserName);
 	}
 
+	
 	@Test(enabled = true, priority = 1) // Positive Test
+	public void OpenBrowserShop() throws InterruptedException {
+		String url = "https://rahulshettyacademy.com/client/";
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		System.out.println("Thread id = " + Thread.currentThread().getId());
+		System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
+		String expectedTitle = "Let's Shop";
+		String originalTitle = driver.getTitle();
+		System.out.println("Title: " + originalTitle);
+		
+		WebElement emailElement = new WebDriverWait(driver, Duration.ofSeconds(5))
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='form-group']/input")));
+		
+		emailElement.sendKeys("OpenBrowserShop");
+		
+		Assert.assertEquals(originalTitle, expectedTitle, "Titles of the website do not match");
+	}
+	
+	@Test(enabled = true, priority = 1) // Negative Test
+	public void OpenBrowserShopNegatvie() throws InterruptedException {
+		String url = "https://rahulshettyacademy.com/client/";
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		System.out.println("Thread id = " + Thread.currentThread().getId());
+		System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
+		String expectedTitle = "Let's Shop";
+		String originalTitle = driver.getTitle();
+		System.out.println("Title: " + originalTitle);
+		
+		WebElement emailElement = new WebDriverWait(driver, Duration.ofSeconds(5))
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='form-group']/input")));
+		
+		emailElement.sendKeys("OpenBrowserShopNegatvie");
+		
+		Assert.assertEquals(originalTitle, expectedTitle, "Titles of the website do not match");
+	}
+	
+	@Test(enabled = false, priority = 1) // Positive Test
 	public void OpenBrowser() throws InterruptedException {
 		String url = "https://rahulshettyacademy.com/locatorspractice/";
 		driver.get(url);
 		System.out.println("Thread id = " + Thread.currentThread().getId());
-		System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
+		//System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
 		String expectedTitle = "Rahul Shetty Academy - Login page";
 		String originalTitle = driver.getTitle();
 		Assert.assertEquals(originalTitle, expectedTitle, "Titles of the website do not match");
 	}
 
-	@Test(enabled = true, priority = 2) // Negative Test
+	@Test(enabled = false, priority = 2) // Negative Test
 	public void OpenBrowserNegative() throws InterruptedException {
 		String url = "https://rahulshettyacademy.com/locatorspractice/";
 		driver.get(url);
 		System.out.println("Thread id = " + Thread.currentThread().getId());
-		System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
+		//System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
 		String expectedTitle = "Rahul Shetty Academy - Login pag";
 		String originalTitle = driver.getTitle();
 		Assert.assertEquals(originalTitle, expectedTitle, "Titles of the website do not match");
 	}
 
-	@Test(enabled = true, priority = 3) // Positive Test
+	@Test(enabled = false, priority = 3) // Positive Test
 	public void OpenBrowserSecond() throws InterruptedException {
 		String url = "https://rahulshettyacademy.com/locatorspractice/";
 		driver.get(url);
 		System.out.println("Thread id = " + Thread.currentThread().getId());
-		System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
+		//System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
 		String expectedTitle = "Rahul Shetty Academy - Login page";
 		String originalTitle = driver.getTitle();
 		Assert.assertEquals(originalTitle, expectedTitle, "Titles of the website do not match");
 	}
 
-	@Test(enabled = true, priority = 4) // Positive Test
+	@Test(enabled = false, priority = 4) // Positive Test
 	public void Login() throws InterruptedException {
 		String url = "https://rahulshettyacademy.com/locatorspractice/";
 		driver.get(url);
 		System.out.println("Thread id = " + Thread.currentThread().getId());
-		System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
+		//System.out.println("Hashcode of webDriver instance = " + ThreadDriverManager.getDriver().hashCode());
 		WebElement userName = driver.findElement(By.xpath("//input[@id='inputUsername']"));
 		WebElement password = driver.findElement(By.xpath("//input[@name='inputPassword']"));
 		userName.sendKeys("Jesus");
@@ -112,7 +151,7 @@ public class SSListenerParallelTSafe {
 		return System.getProperty("user.dir") + "\\reports\\" + testCaseName + ".png";
 	}
 
-	@Test(enabled = true, priority = 2, dataProvider = "Authentication") // Passed Test
+	@Test(enabled = false, priority = 2, dataProvider = "Authentication") // Passed Test
 	public void LoginDP(String sUserName, String sPassword) throws InterruptedException, IOException {
 
 		String url = "https://rahulshettyacademy.com/locatorspractice/";
