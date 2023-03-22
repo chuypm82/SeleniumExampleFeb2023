@@ -51,7 +51,7 @@ public class LandingPageTest extends SelTestCase{
 		Thread.sleep(1000);
 	}
 	
-	@Test(enabled = true, priority = 3, groups = {"SMOKE_TEST"}) // Positive Test
+	@Test(enabled = true, priority = 3, groups = {"SMOKE_TEST"}, dependsOnMethods = {"OpenBrowser"}) // Positive Test
 	public void Login() throws InterruptedException {
 		String url = "https://rahulshettyacademy.com/client/";
 		getDriver().get(url);

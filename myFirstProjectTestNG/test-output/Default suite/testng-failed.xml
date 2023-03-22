@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ParallelWebdriver3.ListenerITest">
+      <class name="RetryBasicSample.Test001">
         <methods>
-          <include name="startDriver"/>
-          <include name="OpenBrowserNegative"/>
-          <include name="stopDriver"/>
+          <include name="Test1"/>
+          <include name="Test2"/>
         </methods>
-      </class> <!-- ParallelWebdriver3.ListenerITest -->
+      </class> <!-- RetryBasicSample.Test001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

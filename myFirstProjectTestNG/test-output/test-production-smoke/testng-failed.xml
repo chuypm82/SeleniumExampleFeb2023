@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [test-production-smoke]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="ParallelBrowsersWorksWell.ListenerITest"/>
-    <listener class-name="ParallelBrowsersWorksWell.MyTransformer"/>
+    <listener class-name="ParallelWebdriver3.ListenerITest"/>
+    <listener class-name="ParallelWebdriver3.MyTransformer"/>
   </listeners>
   <test thread-count="3" name="ProductionTest(failed)">
     <parameter name="browserName" value="chrome"/>
@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="ParallelBrowsersWorksWell.LandingPageTest">
+      <class name="ParallelWebdriver3.LandingPageTest">
         <methods>
+          <include name="startDriver"/>
           <include name="OpenBrowserNegative"/>
           <include name="stopDriver"/>
-          <include name="startDriver"/>
         </methods>
-      </class> <!-- ParallelBrowsersWorksWell.LandingPageTest -->
+      </class> <!-- ParallelWebdriver3.LandingPageTest -->
     </classes>
   </test> <!-- ProductionTest(failed) -->
   <test thread-count="3" name="ProductionTest3(failed)">
@@ -30,13 +30,13 @@
       </run>
     </groups>
     <classes>
-      <class name="ParallelBrowsersWorksWell.LandingPageTest">
+      <class name="ParallelWebdriver3.LandingPageTest">
         <methods>
+          <include name="startDriver"/>
           <include name="OpenBrowserNegative"/>
           <include name="stopDriver"/>
-          <include name="startDriver"/>
         </methods>
-      </class> <!-- ParallelBrowsersWorksWell.LandingPageTest -->
+      </class> <!-- ParallelWebdriver3.LandingPageTest -->
     </classes>
   </test> <!-- ProductionTest3(failed) -->
   <test thread-count="3" name="ProductionTest2(failed)">
@@ -47,13 +47,13 @@
       </run>
     </groups>
     <classes>
-      <class name="ParallelBrowsersWorksWell.LandingPageTest">
+      <class name="ParallelWebdriver3.LandingPageTest">
         <methods>
+          <include name="startDriver"/>
           <include name="OpenBrowserNegative"/>
           <include name="stopDriver"/>
-          <include name="startDriver"/>
         </methods>
-      </class> <!-- ParallelBrowsersWorksWell.LandingPageTest -->
+      </class> <!-- ParallelWebdriver3.LandingPageTest -->
     </classes>
   </test> <!-- ProductionTest2(failed) -->
 </suite> <!-- Failed suite [test-production-smoke] -->

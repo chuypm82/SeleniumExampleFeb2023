@@ -6,7 +6,7 @@ import org.testng.ITestResult;
 public class RetryAnalyzerDemo  implements IRetryAnalyzer {
 
 	int initialCount=0;
-	int macCount=2;
+	int macCount=9;
 
 	public boolean retry(ITestResult result) {
 		if(initialCount<macCount)
