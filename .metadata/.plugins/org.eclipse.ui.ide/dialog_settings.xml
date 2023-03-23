@@ -17,6 +17,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Feb2023"/>
 			<item value="C:\Users\chuyp\OneDrive\Documentos\Personal\Trainings\Selenium\Workspaces\2023-Feb"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
