@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="POM_Example"/>
 			<item value="myFirstProjectTestNG"/>
 			<item value="DemoQA"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="POM_Example"/>
 			<item value="myFirstProjectTestNG"/>
 			<item value="DemoQA"/>
 		</list>
