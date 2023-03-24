@@ -6,8 +6,13 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Firefox"/>
+		<item key="selection" value="Path_TestData"/>
 		<list key="findhistory">
+			<item value="Path_TestData"/>
+			<item value="logout"/>
+			<item value="getDriver()"/>
+			<item value="HSSF"/>
+			<item value="hssf"/>
 			<item value="firefox"/>
 			<item value="Login"/>
 			<item value="xml"/>
@@ -18,14 +23,11 @@
 			<item value="match"/>
 			<item value="xpath"/>
 			<item value="css"/>
-			<item value="cache"/>
-			<item value="cach"/>
-			<item value="cached"/>
-			<item value="RESPONSE GetElementText"/>
-			<item value="FindElement"/>
 		</list>
 		<list key="replacehistory">
 			<item value="driver"/>
+			<item value="XSSF"/>
+			<item value="xssf"/>
 			<item value="submitBtn"/>
 		</list>
 	</section>
