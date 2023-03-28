@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-28T10:09:42 EDT" name="Default suite" finished-at="2023-03-28T10:09:55 EDT" duration-ms="13721">
+    <groups>
+    </groups>
+    <test started-at="2023-03-28T10:09:42 EDT" name="Default test" finished-at="2023-03-28T10:09:55 EDT" duration-ms="13721">
+      <class name="Automation.KeywordFramework.IrctcLogic">
+        <test-method signature="readExcelandexecute()[pri:0, instance:Automation.KeywordFramework.IrctcLogic@3427b02d]" started-at="2023-03-28T10:09:42 EDT" name="readExcelandexecute" finished-at="2023-03-28T10:09:55 EDT" duration-ms="13696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelandexecute -->
+      </class> <!-- Automation.KeywordFramework.IrctcLogic -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+# Home Page Objects
+btn_MyAccount=.//*[@id='account']/a
+btn_LogOut=(.//button[@class='btn btn-custom'])[4]
+
+# Login Page Object
+txtbx_UserName=.//input[@id='userEmail']
+txtbx_Password=.//input[@id='userPassword']
+btn_LogIn=.//input[@id='login']
