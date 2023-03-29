@@ -1,0 +1,86 @@
+2023-03-28 17:22:06,862 INFO  [Log] **************************************************************************************** 
+2023-03-28 17:22:06,862 INFO  [Log] **************************************************************************************** 
+2023-03-28 17:22:06,862 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Selenium_Test_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-28 17:22:06,862 INFO  [Log] **************************************************************************************** 
+2023-03-28 17:22:06,862 INFO  [Log] **************************************************************************************** 
+2023-03-28 17:22:07,277 INFO  [Log] Excel sheet opened 
+2023-03-28 17:22:10,315 INFO  [Log] New driver instantiated 
+2023-03-28 17:22:16,977 INFO  [Log] Web application launched 
+2023-03-28 17:22:16,981 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2023-03-28 17:22:16,989 INFO  [Log] Username picked from Excel is chuy@bah.com 
+2023-03-28 17:22:16,989 INFO  [Log] Password picked from Excel is Hello1234! 
+2023-03-28 17:22:17,002 INFO  [Log] Username text box found 
+2023-03-28 17:22:17,036 INFO  [Log] Username entered in the Username text box 
+2023-03-28 17:22:17,043 INFO  [Log] Password text box found 
+2023-03-28 17:22:17,072 INFO  [Log] Password entered in the Password text box 
+2023-03-28 17:22:17,083 INFO  [Log] Login button found 
+2023-03-28 17:22:17,108 INFO  [Log] Click action performed on login button 
+2023-03-28 17:22:18,132 INFO  [Log] Log Out button found 
+2023-03-28 17:22:18,161 INFO  [Log] Click action is perfomred on Log Out link 
+2023-03-28 17:22:19,564 INFO  [Log] Browser closed 
+2023-03-28 17:22:19,645 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-03-28 17:22:19,645 INFO  [Log] X 
+2023-03-28 17:22:19,645 INFO  [Log] X 
+2023-03-28 17:22:19,645 INFO  [Log] X 
+2023-03-28 17:22:19,645 INFO  [Log] X 
+2023-03-28 17:30:28,124 INFO  [Log] **************************************************************************************** 
+2023-03-28 17:30:28,124 INFO  [Log] **************************************************************************************** 
+2023-03-28 17:30:28,124 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Selenium_Test_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-28 17:30:28,124 INFO  [Log] **************************************************************************************** 
+2023-03-28 17:30:28,124 INFO  [Log] **************************************************************************************** 
+2023-03-28 17:30:28,531 INFO  [Log] Excel sheet opened 
+2023-03-28 17:30:31,576 INFO  [Log] New driver instantiated 
+2023-03-28 17:30:35,416 INFO  [Log] Web application launched 
+2023-03-28 17:30:35,421 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2023-03-28 17:30:35,428 INFO  [Log] Username picked from Excel is chuy@bah.com 
+2023-03-28 17:30:35,429 INFO  [Log] Password picked from Excel is Hello1234! 
+2023-03-28 17:30:35,439 INFO  [Log] Username text box found 
+2023-03-28 17:30:35,474 INFO  [Log] Username entered in the Username text box 
+2023-03-28 17:30:35,482 INFO  [Log] Password text box found 
+2023-03-28 17:30:35,513 INFO  [Log] Password entered in the Password text box 
+2023-03-28 17:30:35,520 INFO  [Log] Login button found 
+2023-03-28 17:30:35,545 INFO  [Log] Click action performed on login button 
+2023-03-28 17:30:36,558 INFO  [Log] Log Out button found 
+2023-03-28 17:30:36,585 INFO  [Log] Click action is perfomred on Log Out Button 
+2023-03-28 17:30:38,019 INFO  [Log] Browser closed 
+2023-03-28 17:30:38,112 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-03-28 17:30:38,112 INFO  [Log] X 
+2023-03-28 17:30:38,112 INFO  [Log] X 
+2023-03-28 17:30:38,112 INFO  [Log] X 
+2023-03-28 17:30:38,112 INFO  [Log] X 
+2023-03-29 10:07:56,274 INFO  [Log] **************************************************************************************** 
+2023-03-29 10:07:56,274 INFO  [Log] **************************************************************************************** 
+2023-03-29 10:07:56,274 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UDF_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-29 10:07:56,274 INFO  [Log] **************************************************************************************** 
+2023-03-29 10:07:56,274 INFO  [Log] **************************************************************************************** 
+2023-03-29 10:07:59,839 INFO  [Log] New driver instantiated 
+2023-03-29 10:07:59,848 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2023-03-29 10:08:04,088 INFO  [Log] Web application launched successfully 
+2023-03-29 10:08:04,095 INFO  [Log] Username picked from Excel is chuy@bah.com 
+2023-03-29 10:08:04,095 INFO  [Log] Password picked from Excel is Hello1234! 
+2023-03-29 10:08:04,106 INFO  [Log] Username text box found 
+2023-03-29 10:08:04,140 INFO  [Log] Username entered in the Username text box 
+2023-03-29 10:08:04,147 INFO  [Log] Password text box found 
+2023-03-29 10:08:04,182 INFO  [Log] Password entered in the Password text box 
+2023-03-29 10:08:04,190 INFO  [Log] Login button found 
+2023-03-29 10:08:04,217 INFO  [Log] Click action performed on login button 
+2023-03-29 10:08:05,232 INFO  [Log] Log Out button found 
+2023-03-29 10:08:05,261 INFO  [Log] Click action is perfomred on Log Out Button 
+2023-03-29 10:11:38,350 INFO  [Log] **************************************************************************************** 
+2023-03-29 10:11:38,351 INFO  [Log] **************************************************************************************** 
+2023-03-29 10:11:38,351 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UDF_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-29 10:11:38,351 INFO  [Log] **************************************************************************************** 
+2023-03-29 10:11:38,351 INFO  [Log] **************************************************************************************** 
+2023-03-29 10:11:41,825 INFO  [Log] New driver instantiated 
+2023-03-29 10:11:41,833 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2023-03-29 10:11:46,205 INFO  [Log] Web application launched successfully 
+2023-03-29 10:11:46,212 INFO  [Log] Username picked from Excel is chuy@bah.com 
+2023-03-29 10:11:46,212 INFO  [Log] Password picked from Excel is Hello1234! 
+2023-03-29 10:11:46,223 INFO  [Log] Username text box found 
+2023-03-29 10:11:46,257 INFO  [Log] Username entered in the Username text box 
+2023-03-29 10:11:46,265 INFO  [Log] Password text box found 
+2023-03-29 10:11:46,299 INFO  [Log] Password entered in the Password text box 
+2023-03-29 10:11:46,306 INFO  [Log] Login button found 
+2023-03-29 10:11:46,330 INFO  [Log] Click action performed on login button 
+2023-03-29 10:11:47,348 INFO  [Log] Log Out button found 
+2023-03-29 10:11:47,377 INFO  [Log] Click action is perfomred on Log Out Button 

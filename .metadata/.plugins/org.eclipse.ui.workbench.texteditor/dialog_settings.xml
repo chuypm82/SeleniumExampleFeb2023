@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="setExcelFile"/>
+		<item key="selection" value="endTestCase"/>
 		<list key="findhistory">
+			<item value="endTestCase"/>
+			<item value="setCellData"/>
 			<item value="setExcelFile"/>
 			<item value="getCellData"/>
 			<item value="click"/>
@@ -21,8 +23,6 @@
 			<item value="xml"/>
 			<item value="onStart method started"/>
 			<item value="New Test Started"/>
-			<item value="onFinish"/>
-			<item value="ExcelUtils"/>
 		</list>
 		<list key="replacehistory">
 			<item value="driver"/>

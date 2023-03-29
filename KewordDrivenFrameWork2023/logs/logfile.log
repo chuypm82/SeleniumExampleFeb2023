@@ -1029,3 +1029,123 @@ Session ID: 18c8875a56c930b7e841463c81c4da8e
 2023-03-28 09:56:09,067 INFO  [Log] X 
 2023-03-28 09:56:09,067 INFO  [Log] X 
 2023-03-28 09:56:09,067 INFO  [Log] X 
+2023-03-28 10:14:02,803 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:02,803 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:02,803 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-28 10:14:02,803 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:02,803 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:02,804 INFO  [Log] Opening Browser 
+2023-03-28 10:14:05,729 INFO  [Log] Chrome browser started 
+2023-03-28 10:14:05,867 INFO  [Log] Navigating to URL 
+2023-03-28 10:14:09,681 INFO  [Log] Entering the text in txtbx_UserName 
+2023-03-28 10:14:09,788 INFO  [Log] Entering the text in txtbx_Password 
+2023-03-28 10:14:09,864 INFO  [Log] Clicking on Webelement btn_LogIn 
+2023-03-28 10:14:09,919 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:14:11,949 INFO  [Log] Clicking on Webelement btn_LogOut 
+2023-03-28 10:14:12,002 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:14:14,046 INFO  [Log] Closing the browser 
+2023-03-28 10:14:14,414 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-03-28 10:14:14,414 INFO  [Log] X 
+2023-03-28 10:14:14,414 INFO  [Log] X 
+2023-03-28 10:14:14,414 INFO  [Log] X 
+2023-03-28 10:14:14,414 INFO  [Log] X 
+2023-03-28 10:14:14,414 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:14,414 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:14,414 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-28 10:14:14,414 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:14,414 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:14,414 INFO  [Log] Opening Browser 
+2023-03-28 10:14:17,161 INFO  [Log] Mozilla browser started 
+2023-03-28 10:14:17,179 INFO  [Log] Navigating to URL 
+2023-03-28 10:14:21,811 INFO  [Log] Entering the text in txtbx_UserName 
+2023-03-28 10:14:21,887 INFO  [Log] Entering the text in txtbx_Password 
+2023-03-28 10:14:21,931 INFO  [Log] Clicking on Webelement btn_LogIn 
+2023-03-28 10:14:22,167 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:14:24,179 INFO  [Log] Clicking on Webelement btn_LogOut 
+2023-03-28 10:14:24,435 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:14:26,458 INFO  [Log] Closing the browser 
+2023-03-28 10:14:27,980 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-03-28 10:14:27,980 INFO  [Log] X 
+2023-03-28 10:14:27,980 INFO  [Log] X 
+2023-03-28 10:14:27,980 INFO  [Log] X 
+2023-03-28 10:14:27,980 INFO  [Log] X 
+2023-03-28 10:14:27,980 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:27,981 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:27,981 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_03       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-28 10:14:27,981 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:27,981 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:14:27,981 INFO  [Log] Opening Browser 
+2023-03-28 10:14:30,478 INFO  [Log] Edge browser started 
+2023-03-28 10:14:30,491 INFO  [Log] Navigating to URL 
+2023-03-28 10:14:35,274 INFO  [Log] Entering the text in txtbx_UserName 
+2023-03-28 10:14:35,341 INFO  [Log] Entering the text in txtbx_Password 
+2023-03-28 10:14:35,401 INFO  [Log] Clicking on Webelement btn_LogIn 
+2023-03-28 10:14:35,444 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:14:37,458 INFO  [Log] Clicking on Webelement btn_LogOut 
+2023-03-28 10:14:37,509 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:14:39,535 INFO  [Log] Closing the browser 
+2023-03-28 10:14:40,236 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-03-28 10:14:40,236 INFO  [Log] X 
+2023-03-28 10:14:40,236 INFO  [Log] X 
+2023-03-28 10:14:40,236 INFO  [Log] X 
+2023-03-28 10:14:40,236 INFO  [Log] X 
+2023-03-28 10:16:53,404 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:16:53,404 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:16:53,404 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-28 10:16:53,404 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:16:53,404 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:16:53,406 INFO  [Log] Opening Browser 
+2023-03-28 10:16:56,366 INFO  [Log] Chrome browser started 
+2023-03-28 10:16:56,491 INFO  [Log] Navigating to URL 
+2023-03-28 10:17:00,478 INFO  [Log] Entering the text in txtbx_UserName 
+2023-03-28 10:17:00,581 INFO  [Log] Entering the text in txtbx_Password 
+2023-03-28 10:17:00,658 INFO  [Log] Clicking on Webelement btn_LogIn 
+2023-03-28 10:17:00,722 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:17:02,743 INFO  [Log] Clicking on Webelement btn_LogOut 
+2023-03-28 10:17:02,798 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:17:04,830 INFO  [Log] Closing the browser 
+2023-03-28 10:17:05,233 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-03-28 10:17:05,233 INFO  [Log] X 
+2023-03-28 10:17:05,233 INFO  [Log] X 
+2023-03-28 10:17:05,233 INFO  [Log] X 
+2023-03-28 10:17:05,233 INFO  [Log] X 
+2023-03-28 10:17:05,234 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:17:05,234 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:17:05,234 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-28 10:17:05,234 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:17:05,234 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:17:05,234 INFO  [Log] Opening Browser 
+2023-03-28 10:17:08,048 INFO  [Log] Mozilla browser started 
+2023-03-28 10:17:08,064 INFO  [Log] Navigating to URL 
+2023-03-28 10:17:12,132 INFO  [Log] Entering the text in txtbx_UserName 
+2023-03-28 10:17:12,191 INFO  [Log] Entering the text in txtbx_Password 
+2023-03-28 10:17:12,231 INFO  [Log] Clicking on Webelement btn_LogIn 
+2023-03-28 10:17:12,465 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:17:14,483 INFO  [Log] Clicking on Webelement btn_LogOut 
+2023-03-28 10:17:14,730 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:17:16,745 INFO  [Log] Closing the browser 
+2023-03-28 10:17:19,977 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-03-28 10:17:19,977 INFO  [Log] X 
+2023-03-28 10:17:19,977 INFO  [Log] X 
+2023-03-28 10:17:19,977 INFO  [Log] X 
+2023-03-28 10:17:19,977 INFO  [Log] X 
+2023-03-28 10:17:19,977 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:17:19,977 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:17:19,977 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_03       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-03-28 10:17:19,977 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:17:19,977 INFO  [Log] **************************************************************************************** 
+2023-03-28 10:17:19,978 INFO  [Log] Opening Browser 
+2023-03-28 10:17:22,451 INFO  [Log] Edge browser started 
+2023-03-28 10:17:22,462 INFO  [Log] Navigating to URL 
+2023-03-28 10:17:27,427 INFO  [Log] Entering the text in txtbx_UserName 
+2023-03-28 10:17:27,489 INFO  [Log] Entering the text in txtbx_Password 
+2023-03-28 10:17:27,551 INFO  [Log] Clicking on Webelement btn_LogIn 
+2023-03-28 10:17:27,595 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:17:29,610 INFO  [Log] Clicking on Webelement btn_LogOut 
+2023-03-28 10:17:29,664 INFO  [Log] Wait for 5 seconds 
+2023-03-28 10:17:31,682 INFO  [Log] Closing the browser 
+2023-03-28 10:17:32,282 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-03-28 10:17:32,282 INFO  [Log] X 
+2023-03-28 10:17:32,282 INFO  [Log] X 
+2023-03-28 10:17:32,282 INFO  [Log] X 
+2023-03-28 10:17:32,282 INFO  [Log] X 

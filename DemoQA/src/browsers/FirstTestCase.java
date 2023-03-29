@@ -6,17 +6,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class FirstTestCase {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		// Setting the driver path
-		//System.setProperty("webdriver.chrome.driver", 
-				//"C:\\Users\\625337\\OneDrive - BOOZ ALLEN HAMILTON\\Documents\\Personal\\Trainings\\Selenium\\Drivers\\chromedriver.exe");
-
 		//Creating webDriver instance
-		WebDriver driver= new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
+		WebDriver driver = new ChromeDriver(options);
 		
 		//WebDriver driver= new FirefoxDriver();
 		
@@ -65,5 +64,6 @@ public class FirstTestCase {
 		//Thread.sleep(2000);
 		//Closing browser session
 		driver.quit();		
+	
 	}
 }
