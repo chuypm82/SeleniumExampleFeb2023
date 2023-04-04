@@ -5,33 +5,46 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utility.Log;
 
-public class Login_Page {
-
+public class Login_Page extends BaseClass {
+	
 	private static WebElement element = null;
 
-	public static WebElement lnk_MyAccount(WebDriver driver) {
-		element = driver.findElement(By.id("account"));
-		return element;
+	public Login_Page(WebDriver driver) {
+		super(driver);
 	}
 
+	// Method to verify login page element
+	public static WebElement verficationElement() {
+		element = driver.findElement(By.xpath(".//h1[contains(@class,'login')]"));
+		Log.info("Verification element is found on Login page");
+		return element;
+	}
+	
+
 	// Method to enter username
-	public static WebElement inputUsername(WebDriver driver) {
-		element = driver.findElement(By.xpath("//input[@id='userEmail']"));
-		Log.info("Username text box found");
+	public static WebElement inputUsername() {
+		element = null;
+		try {
+			element = driver.findElement(By.xpath("//input[@id='userEmail']"));
+			Log.info("Username text box is found on Login page");
+		} catch (Exception e) {
+			Log.error("Username text box is not found on Login page");
+			throw (e);
+		}
 		return element;
 	}
 	
 	// Method to enter password
-	public static WebElement inputPassword(WebDriver driver) {
+	public static WebElement inputPassword() {
 		element = driver.findElement(By.xpath("//input[@id='userPassword']"));
-		Log.info("Password text box found");
+		Log.info("Password text box is found on Login page");
 		return element;
 	}
 
 	// Method to click login button
-	public static WebElement buttonLogin(WebDriver driver) {
+	public static WebElement buttonLogin() {
 		element = driver.findElement(By.xpath("//input[@id='login']"));
-		Log.info("Login button found");
+		Log.info("Login button is found on Login page");
 		return element;
 	}
 

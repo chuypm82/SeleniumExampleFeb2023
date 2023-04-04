@@ -1,86 +1,141 @@
-2023-03-28 17:22:06,862 INFO  [Log] **************************************************************************************** 
-2023-03-28 17:22:06,862 INFO  [Log] **************************************************************************************** 
-2023-03-28 17:22:06,862 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Selenium_Test_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2023-03-28 17:22:06,862 INFO  [Log] **************************************************************************************** 
-2023-03-28 17:22:06,862 INFO  [Log] **************************************************************************************** 
-2023-03-28 17:22:07,277 INFO  [Log] Excel sheet opened 
-2023-03-28 17:22:10,315 INFO  [Log] New driver instantiated 
-2023-03-28 17:22:16,977 INFO  [Log] Web application launched 
-2023-03-28 17:22:16,981 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
-2023-03-28 17:22:16,989 INFO  [Log] Username picked from Excel is chuy@bah.com 
-2023-03-28 17:22:16,989 INFO  [Log] Password picked from Excel is Hello1234! 
-2023-03-28 17:22:17,002 INFO  [Log] Username text box found 
-2023-03-28 17:22:17,036 INFO  [Log] Username entered in the Username text box 
-2023-03-28 17:22:17,043 INFO  [Log] Password text box found 
-2023-03-28 17:22:17,072 INFO  [Log] Password entered in the Password text box 
-2023-03-28 17:22:17,083 INFO  [Log] Login button found 
-2023-03-28 17:22:17,108 INFO  [Log] Click action performed on login button 
-2023-03-28 17:22:18,132 INFO  [Log] Log Out button found 
-2023-03-28 17:22:18,161 INFO  [Log] Click action is perfomred on Log Out link 
-2023-03-28 17:22:19,564 INFO  [Log] Browser closed 
-2023-03-28 17:22:19,645 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2023-03-28 17:22:19,645 INFO  [Log] X 
-2023-03-28 17:22:19,645 INFO  [Log] X 
-2023-03-28 17:22:19,645 INFO  [Log] X 
-2023-03-28 17:22:19,645 INFO  [Log] X 
-2023-03-28 17:30:28,124 INFO  [Log] **************************************************************************************** 
-2023-03-28 17:30:28,124 INFO  [Log] **************************************************************************************** 
-2023-03-28 17:30:28,124 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Selenium_Test_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2023-03-28 17:30:28,124 INFO  [Log] **************************************************************************************** 
-2023-03-28 17:30:28,124 INFO  [Log] **************************************************************************************** 
-2023-03-28 17:30:28,531 INFO  [Log] Excel sheet opened 
-2023-03-28 17:30:31,576 INFO  [Log] New driver instantiated 
-2023-03-28 17:30:35,416 INFO  [Log] Web application launched 
-2023-03-28 17:30:35,421 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
-2023-03-28 17:30:35,428 INFO  [Log] Username picked from Excel is chuy@bah.com 
-2023-03-28 17:30:35,429 INFO  [Log] Password picked from Excel is Hello1234! 
-2023-03-28 17:30:35,439 INFO  [Log] Username text box found 
-2023-03-28 17:30:35,474 INFO  [Log] Username entered in the Username text box 
-2023-03-28 17:30:35,482 INFO  [Log] Password text box found 
-2023-03-28 17:30:35,513 INFO  [Log] Password entered in the Password text box 
-2023-03-28 17:30:35,520 INFO  [Log] Login button found 
-2023-03-28 17:30:35,545 INFO  [Log] Click action performed on login button 
-2023-03-28 17:30:36,558 INFO  [Log] Log Out button found 
-2023-03-28 17:30:36,585 INFO  [Log] Click action is perfomred on Log Out Button 
-2023-03-28 17:30:38,019 INFO  [Log] Browser closed 
-2023-03-28 17:30:38,112 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2023-03-28 17:30:38,112 INFO  [Log] X 
-2023-03-28 17:30:38,112 INFO  [Log] X 
-2023-03-28 17:30:38,112 INFO  [Log] X 
-2023-03-28 17:30:38,112 INFO  [Log] X 
-2023-03-29 10:07:56,274 INFO  [Log] **************************************************************************************** 
-2023-03-29 10:07:56,274 INFO  [Log] **************************************************************************************** 
-2023-03-29 10:07:56,274 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UDF_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2023-03-29 10:07:56,274 INFO  [Log] **************************************************************************************** 
-2023-03-29 10:07:56,274 INFO  [Log] **************************************************************************************** 
-2023-03-29 10:07:59,839 INFO  [Log] New driver instantiated 
-2023-03-29 10:07:59,848 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
-2023-03-29 10:08:04,088 INFO  [Log] Web application launched successfully 
-2023-03-29 10:08:04,095 INFO  [Log] Username picked from Excel is chuy@bah.com 
-2023-03-29 10:08:04,095 INFO  [Log] Password picked from Excel is Hello1234! 
-2023-03-29 10:08:04,106 INFO  [Log] Username text box found 
-2023-03-29 10:08:04,140 INFO  [Log] Username entered in the Username text box 
-2023-03-29 10:08:04,147 INFO  [Log] Password text box found 
-2023-03-29 10:08:04,182 INFO  [Log] Password entered in the Password text box 
-2023-03-29 10:08:04,190 INFO  [Log] Login button found 
-2023-03-29 10:08:04,217 INFO  [Log] Click action performed on login button 
-2023-03-29 10:08:05,232 INFO  [Log] Log Out button found 
-2023-03-29 10:08:05,261 INFO  [Log] Click action is perfomred on Log Out Button 
-2023-03-29 10:11:38,350 INFO  [Log] **************************************************************************************** 
-2023-03-29 10:11:38,351 INFO  [Log] **************************************************************************************** 
-2023-03-29 10:11:38,351 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UDF_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2023-03-29 10:11:38,351 INFO  [Log] **************************************************************************************** 
-2023-03-29 10:11:38,351 INFO  [Log] **************************************************************************************** 
-2023-03-29 10:11:41,825 INFO  [Log] New driver instantiated 
-2023-03-29 10:11:41,833 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
-2023-03-29 10:11:46,205 INFO  [Log] Web application launched successfully 
-2023-03-29 10:11:46,212 INFO  [Log] Username picked from Excel is chuy@bah.com 
-2023-03-29 10:11:46,212 INFO  [Log] Password picked from Excel is Hello1234! 
-2023-03-29 10:11:46,223 INFO  [Log] Username text box found 
-2023-03-29 10:11:46,257 INFO  [Log] Username entered in the Username text box 
-2023-03-29 10:11:46,265 INFO  [Log] Password text box found 
-2023-03-29 10:11:46,299 INFO  [Log] Password entered in the Password text box 
-2023-03-29 10:11:46,306 INFO  [Log] Login button found 
-2023-03-29 10:11:46,330 INFO  [Log] Click action performed on login button 
-2023-03-29 10:11:47,348 INFO  [Log] Log Out button found 
-2023-03-29 10:11:47,377 INFO  [Log] Click action is perfomred on Log Out Button 
+2023-04-04 11:49:51,861 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:49:51,862 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:49:51,862 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-04-04 11:49:51,862 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:49:51,862 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:49:52,316 INFO  [Log] Opening Browser 
+2023-04-04 11:49:55,595 INFO  [Log] Chrome browser started 
+2023-04-04 11:49:55,721 INFO  [Log] Implicit wait applied on the driver for 5 seconds 
+2023-04-04 11:50:00,544 INFO  [Log] Web application launched successfully 
+2023-04-04 11:50:00,563 INFO  [Log] Username text box is found on Login page 
+2023-04-04 11:50:00,603 INFO  [Log] chuy@bah.com is entered in UserName text box 
+2023-04-04 11:50:00,613 INFO  [Log] Password text box is found on Login page 
+2023-04-04 11:50:00,649 INFO  [Log] Hello1234! is entered in Password text box 
+2023-04-04 11:50:00,657 INFO  [Log] Login button is found on Login page 
+2023-04-04 11:50:00,685 INFO  [Log] Click action performed on login button 
+2023-04-04 11:50:01,067 INFO  [Log] Verification(welcome) element is found on Home page 
+2023-04-04 11:50:02,106 INFO  [Log] Product Category Section element is found under Top Navigation of Home page 
+2023-04-04 11:50:02,136 INFO  [Log] Check box element is found on Top Navigation of Home Page for fashion Category 
+2023-04-04 11:50:02,407 INFO  [Log] FASHION categoy is selected on Top Navigation of Home Page 
+2023-04-04 11:50:03,445 INFO  [Log] Add to Cart button is found on Product Listing Page for ADIDAS ORIGINAL 
+2023-04-04 11:50:03,466 INFO  [Log] ADIDAS ORIGINAL is selected from the Product Listing page 
+2023-04-04 11:50:05,096 INFO  [Log] interceptElement element is found on Home page 
+2023-04-04 11:50:05,116 INFO  [Log] Main Cart button is found on Home page 
+2023-04-04 11:50:05,148 INFO  [Log] Click action is performed on Main Cart button 
+2023-04-04 11:50:05,423 INFO  [Log] ADIDAS ORIGINAL Product Name element is found on Check Out Page 
+2023-04-04 11:50:05,442 INFO  [Log] MRP $ 31500 Product Price element is found on Check Out Page 
+2023-04-04 11:50:05,458 INFO  [Log] Continue button is found on Check Out Page 
+2023-04-04 11:50:05,494 INFO  [Log] Click action performed on Continue button 
+2023-04-04 11:50:05,758 INFO  [Log] adidas original Product Name element is found on Place Order Page 
+2023-04-04 11:50:05,776 INFO  [Log] $ 31500 Product Price element is found on Place Order Page 
+2023-04-04 11:50:05,789 INFO  [Log] Input Country element is found on Place Order Page 
+2023-04-04 11:50:06,149 INFO  [Log] Country dynamic button is found on Place Order Page 
+2023-04-04 11:50:06,171 INFO  [Log] Mexico is entered as Country value on Place Order page 
+2023-04-04 11:50:06,177 INFO  [Log] Place Order button is found on Place Order Page 
+2023-04-04 11:50:06,195 INFO  [Log] Click action performed on Place Order button 
+2023-04-04 11:50:06,788 INFO  [Log] adidas original Product Name element is found on Verification Page 
+2023-04-04 11:50:06,808 INFO  [Log] $ 31500 Product Price element is found on Verification Page 
+2023-04-04 11:50:06,821 INFO  [Log] Thank you for the order message element is found on Verification page 
+2023-04-04 11:50:06,838 INFO  [Log] Logout element is found on Home page 
+2023-04-04 11:50:06,862 INFO  [Log] Click action performed on Logout button 
+2023-04-04 11:50:06,870 INFO  [Log] Verification element is found on Login page 
+2023-04-04 11:50:06,994 INFO  [Log] Test Case is completed with Pass status 
+2023-04-04 11:50:06,997 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-04-04 11:50:06,997 INFO  [Log] X 
+2023-04-04 11:50:06,997 INFO  [Log] X 
+2023-04-04 11:50:06,997 INFO  [Log] X 
+2023-04-04 11:50:06,997 INFO  [Log] X 
+2023-04-04 11:50:08,395 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:50:08,395 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:50:08,395 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-04-04 11:50:08,395 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:50:08,395 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:50:08,417 INFO  [Log] Opening Browser 
+2023-04-04 11:50:12,427 INFO  [Log] Edge browser started 
+2023-04-04 11:50:12,554 INFO  [Log] Implicit wait applied on the driver for 5 seconds 
+2023-04-04 11:50:16,266 INFO  [Log] Web application launched successfully 
+2023-04-04 11:50:16,274 INFO  [Log] Username text box is found on Login page 
+2023-04-04 11:50:16,309 INFO  [Log] chuy2@bah.com is entered in UserName text box 
+2023-04-04 11:50:16,316 INFO  [Log] Password text box is found on Login page 
+2023-04-04 11:50:16,349 INFO  [Log] Hello1234! is entered in Password text box 
+2023-04-04 11:50:16,356 INFO  [Log] Login button is found on Login page 
+2023-04-04 11:50:16,382 INFO  [Log] Click action performed on login button 
+2023-04-04 11:50:16,757 INFO  [Log] Verification(welcome) element is found on Home page 
+2023-04-04 11:50:17,782 INFO  [Log] Product Category Section element is found under Top Navigation of Home page 
+2023-04-04 11:50:17,818 INFO  [Log] Check box element is found on Top Navigation of Home Page for electronics Category 
+2023-04-04 11:50:18,072 INFO  [Log] ELECTRONICS categoy is selected on Top Navigation of Home Page 
+2023-04-04 11:50:19,108 INFO  [Log] Add to Cart button is found on Product Listing Page for IPHONE 13 PRO 
+2023-04-04 11:50:19,128 INFO  [Log] IPHONE 13 PRO is selected from the Product Listing page 
+2023-04-04 11:50:20,781 INFO  [Log] interceptElement element is found on Home page 
+2023-04-04 11:50:20,794 INFO  [Log] Main Cart button is found on Home page 
+2023-04-04 11:50:20,826 INFO  [Log] Click action is performed on Main Cart button 
+2023-04-04 11:50:21,098 INFO  [Log] IPHONE 13 PRO Product Name element is found on Check Out Page 
+2023-04-04 11:50:21,117 INFO  [Log] MRP $ 231500 Product Price element is found on Check Out Page 
+2023-04-04 11:50:21,128 INFO  [Log] Continue button is found on Check Out Page 
+2023-04-04 11:50:21,163 INFO  [Log] Click action performed on Continue button 
+2023-04-04 11:50:21,432 INFO  [Log] iphone 13 pro Product Name element is found on Place Order Page 
+2023-04-04 11:50:21,450 INFO  [Log] $ 231500 Product Price element is found on Place Order Page 
+2023-04-04 11:50:21,464 INFO  [Log] Input Country element is found on Place Order Page 
+2023-04-04 11:50:21,828 INFO  [Log] Country dynamic button is found on Place Order Page 
+2023-04-04 11:50:21,847 INFO  [Log] India is entered as Country value on Place Order page 
+2023-04-04 11:50:21,855 INFO  [Log] Place Order button is found on Place Order Page 
+2023-04-04 11:50:21,874 INFO  [Log] Click action performed on Place Order button 
+2023-04-04 11:50:22,468 INFO  [Log] iphone 13 pro Product Name element is found on Verification Page 
+2023-04-04 11:50:22,488 INFO  [Log] $ 231500 Product Price element is found on Verification Page 
+2023-04-04 11:50:22,500 INFO  [Log] Thank you for the order message element is found on Verification page 
+2023-04-04 11:50:22,514 INFO  [Log] Logout element is found on Home page 
+2023-04-04 11:50:22,672 INFO  [Log] Click action performed on Logout button 
+2023-04-04 11:50:22,681 INFO  [Log] Verification element is found on Login page 
+2023-04-04 11:50:22,715 INFO  [Log] Test Case is completed with Pass status 
+2023-04-04 11:50:22,718 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-04-04 11:50:22,718 INFO  [Log] X 
+2023-04-04 11:50:22,718 INFO  [Log] X 
+2023-04-04 11:50:22,718 INFO  [Log] X 
+2023-04-04 11:50:22,718 INFO  [Log] X 
+2023-04-04 11:50:24,307 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:50:24,307 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:50:24,307 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_003       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-04-04 11:50:24,307 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:50:24,307 INFO  [Log] **************************************************************************************** 
+2023-04-04 11:50:24,328 INFO  [Log] Opening Browser 
+2023-04-04 11:50:27,470 INFO  [Log] Mozilla browser started 
+2023-04-04 11:50:27,734 INFO  [Log] Implicit wait applied on the driver for 5 seconds 
+2023-04-04 11:50:31,584 INFO  [Log] Web application launched successfully 
+2023-04-04 11:50:31,595 INFO  [Log] Username text box is found on Login page 
+2023-04-04 11:50:31,627 INFO  [Log] anshika@gmail.com is entered in UserName text box 
+2023-04-04 11:50:31,629 INFO  [Log] Password text box is found on Login page 
+2023-04-04 11:50:31,641 INFO  [Log] Iamking@000 is entered in Password text box 
+2023-04-04 11:50:31,644 INFO  [Log] Login button is found on Login page 
+2023-04-04 11:50:31,858 INFO  [Log] Click action performed on login button 
+2023-04-04 11:50:32,173 INFO  [Log] Verification(welcome) element is found on Home page 
+2023-04-04 11:50:33,193 INFO  [Log] Product Category Section element is found under Top Navigation of Home page 
+2023-04-04 11:50:33,210 INFO  [Log] Check box element is found on Top Navigation of Home Page for fashion Category 
+2023-04-04 11:50:33,456 INFO  [Log] FASHION categoy is selected on Top Navigation of Home Page 
+2023-04-04 11:50:34,479 INFO  [Log] Add to Cart button is found on Product Listing Page for ZARA COAT 3 
+2023-04-04 11:50:34,702 INFO  [Log] ZARA COAT 3 is selected from the Product Listing page 
+2023-04-04 11:50:36,276 INFO  [Log] interceptElement element is found on Home page 
+2023-04-04 11:50:36,289 INFO  [Log] Main Cart button is found on Home page 
+2023-04-04 11:50:36,521 INFO  [Log] Click action is performed on Main Cart button 
+2023-04-04 11:50:36,568 INFO  [Log] ZARA COAT 3 Product Name element is found on Check Out Page 
+2023-04-04 11:50:36,595 INFO  [Log] MRP $ 31500 Product Price element is found on Check Out Page 
+2023-04-04 11:50:36,612 INFO  [Log] Continue button is found on Check Out Page 
+2023-04-04 11:50:36,862 INFO  [Log] Click action performed on Continue button 
+2023-04-04 11:50:36,904 INFO  [Log] zara coat 3 Product Name element is found on Place Order Page 
+2023-04-04 11:50:36,919 INFO  [Log] $ 31500 Product Price element is found on Place Order Page 
+2023-04-04 11:50:36,928 INFO  [Log] Input Country element is found on Place Order Page 
+2023-04-04 11:50:37,277 INFO  [Log] Country dynamic button is found on Place Order Page 
+2023-04-04 11:50:37,493 INFO  [Log] United States is entered as Country value on Place Order page 
+2023-04-04 11:50:37,498 INFO  [Log] Place Order button is found on Place Order Page 
+2023-04-04 11:50:37,708 INFO  [Log] Click action performed on Place Order button 
+2023-04-04 11:50:38,811 INFO  [Log] zara coat 3 Product Name element is found on Verification Page 
+2023-04-04 11:50:38,820 INFO  [Log] $ 31500 Product Price element is found on Verification Page 
+2023-04-04 11:50:38,829 INFO  [Log] Thank you for the order message element is found on Verification page 
+2023-04-04 11:50:38,834 INFO  [Log] Logout element is found on Home page 
+2023-04-04 11:50:39,056 INFO  [Log] Click action performed on Logout button 
+2023-04-04 11:50:39,059 INFO  [Log] Verification element is found on Login page 
+2023-04-04 11:50:39,085 INFO  [Log] Test Case is completed with Pass status 
+2023-04-04 11:50:39,086 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-04-04 11:50:39,086 INFO  [Log] X 
+2023-04-04 11:50:39,086 INFO  [Log] X 
+2023-04-04 11:50:39,086 INFO  [Log] X 
+2023-04-04 11:50:39,086 INFO  [Log] X 

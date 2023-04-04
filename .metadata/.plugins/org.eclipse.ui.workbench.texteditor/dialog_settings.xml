@@ -6,25 +6,28 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="endTestCase"/>
+		<item key="selection" value="Driver"/>
 		<list key="findhistory">
+			<item value="driver"/>
+			<item value="for purchase "/>
+			<item value="Username text box not found on Login page"/>
+			<item value="Check Out"/>
+			<item value="Logout element found"/>
+			<item value="Logout element"/>
+			<item value="Logout "/>
+			<item value="Logout element found "/>
+			<item value="Login button found"/>
+			<item value="Log Out button found"/>
+			<item value="Log Out button found "/>
 			<item value="endTestCase"/>
 			<item value="setCellData"/>
 			<item value="setExcelFile"/>
 			<item value="getCellData"/>
-			<item value="click"/>
-			<item value="Path_TestData"/>
-			<item value="logout"/>
-			<item value="getDriver()"/>
-			<item value="HSSF"/>
-			<item value="hssf"/>
-			<item value="firefox"/>
-			<item value="Login"/>
-			<item value="xml"/>
-			<item value="onStart method started"/>
-			<item value="New Test Started"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
+			<item value="Verification"/>
+			<item value="Place Order"/>
 			<item value="driver"/>
 			<item value="XSSF"/>
 			<item value="xssf"/>

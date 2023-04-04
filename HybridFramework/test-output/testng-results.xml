@@ -1,25 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[SignIn Action is successfully perfomred]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Check Out page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Check Out page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Place Order page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Place Order page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Verification page]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Verification page]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Thank you for the order message on Verification page.]]>
+    </line>
+    <line>
+      <![CDATA[SignOut Action is successfully perfomred]]>
+    </line>
+    <line>
+      <![CDATA[SignIn Action is successfully perfomred]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Check Out page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Check Out page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Place Order page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Place Order page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Verification page]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Verification page]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Thank you for the order message on Verification page.]]>
+    </line>
+    <line>
+      <![CDATA[SignOut Action is successfully perfomred]]>
+    </line>
+    <line>
+      <![CDATA[SignIn Action is successfully perfomred]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Check Out page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Check Out page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Place Order page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Place Order page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Verification page]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Verification page]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Thank you for the order message on Verification page.]]>
+    </line>
+    <line>
+      <![CDATA[SignOut Action is successfully perfomred]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-03-29T10:11:38 EDT" name="Default suite" finished-at="2023-03-29T10:11:48 EDT" duration-ms="10516">
+  <suite started-at="2023-04-04T11:49:51 EDT" name="End to End Test Cases" finished-at="2023-04-04T11:50:41 EDT" duration-ms="49953">
     <groups>
     </groups>
-    <test started-at="2023-03-29T10:11:38 EDT" name="Default test" finished-at="2023-03-29T10:11:48 EDT" duration-ms="10516">
-      <class name="automationFramework.UDF_TC">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:automationFramework.UDF_TC@3c407114]" started-at="2023-03-29T10:11:38 EDT" name="beforeTest" finished-at="2023-03-29T10:11:46 EDT" duration-ms="7936" status="PASS">
+    <test started-at="2023-04-04T11:49:51 EDT" name="Test Set1" finished-at="2023-04-04T11:50:41 EDT" duration-ms="49953">
+      <class name="testCases.Framework_003">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.Framework_003@7fa98a66]" started-at="2023-04-04T11:50:24 EDT" name="beforeTest" finished-at="2023-04-04T11:50:31 EDT" duration-ms="7291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="ChromeTestMethod()[pri:0, instance:automationFramework.UDF_TC@3c407114]" started-at="2023-03-29T10:11:46 EDT" name="ChromeTestMethod" finished-at="2023-03-29T10:11:47 EDT" duration-ms="1171" status="PASS">
+        <test-method signature="MainTestCase()[pri:0, instance:testCases.Framework_003@7fa98a66]" started-at="2023-04-04T11:50:31 EDT" name="MainTestCase" finished-at="2023-04-04T11:50:39 EDT" duration-ms="7501" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[SignIn Action is successfully perfomred]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Check Out page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Check Out page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Place Order page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Place Order page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Verification page]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Verification page]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Thank you for the order message on Verification page.]]>
+            </line>
+            <line>
+              <![CDATA[SignOut Action is successfully perfomred]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- ChromeTestMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:automationFramework.UDF_TC@3c407114]" started-at="2023-03-29T10:11:47 EDT" name="afterTest" finished-at="2023-03-29T10:11:48 EDT" duration-ms="1381" status="PASS">
+        </test-method> <!-- MainTestCase -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.Framework_003@7fa98a66]" started-at="2023-04-04T11:50:39 EDT" name="afterTest" finished-at="2023-04-04T11:50:41 EDT" duration-ms="2620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.UDF_TC -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testCases.Framework_003 -->
+      <class name="testCases.Framework_002">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.Framework_002@1a451d4d]" started-at="2023-04-04T11:50:08 EDT" name="beforeTest" finished-at="2023-04-04T11:50:16 EDT" duration-ms="7885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="MainTestCase()[pri:0, instance:testCases.Framework_002@1a451d4d]" started-at="2023-04-04T11:50:16 EDT" name="MainTestCase" finished-at="2023-04-04T11:50:22 EDT" duration-ms="6449" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn Action is successfully perfomred]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Check Out page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Check Out page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Place Order page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Place Order page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Verification page]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Verification page]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Thank you for the order message on Verification page.]]>
+            </line>
+            <line>
+              <![CDATA[SignOut Action is successfully perfomred]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MainTestCase -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.Framework_002@1a451d4d]" started-at="2023-04-04T11:50:22 EDT" name="afterTest" finished-at="2023-04-04T11:50:24 EDT" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCases.Framework_002 -->
+      <class name="testCases.Framework_001">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.Framework_001@c33b74f]" started-at="2023-04-04T11:49:51 EDT" name="beforeTest" finished-at="2023-04-04T11:50:00 EDT" duration-ms="8769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="MainTestCase()[pri:0, instance:testCases.Framework_001@c33b74f]" started-at="2023-04-04T11:50:00 EDT" name="MainTestCase" finished-at="2023-04-04T11:50:06 EDT" duration-ms="6448" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn Action is successfully perfomred]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Check Out page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Check Out page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Place Order page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Place Order page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Verification page]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Verification page]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Thank you for the order message on Verification page.]]>
+            </line>
+            <line>
+              <![CDATA[SignOut Action is successfully perfomred]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MainTestCase -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.Framework_001@c33b74f]" started-at="2023-04-04T11:50:06 EDT" name="afterTest" finished-at="2023-04-04T11:50:08 EDT" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCases.Framework_001 -->
+    </test> <!-- Test Set1 -->
+  </suite> <!-- End to End Test Cases -->
 </testng-results>
