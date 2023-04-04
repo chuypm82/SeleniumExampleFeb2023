@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-04T15:38:11 EDT" name="Default suite" finished-at="2023-04-04T15:38:24 EDT" duration-ms="12820">
+  <suite started-at="2023-04-04T17:30:19 EDT" name="Default suite" finished-at="2023-04-04T17:30:30 EDT" duration-ms="11577">
     <groups>
     </groups>
-    <test started-at="2023-04-04T15:38:11 EDT" name="Default test" finished-at="2023-04-04T15:38:24 EDT" duration-ms="12820">
-      <class name="objRepSample.SampleTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:objRepSample.SampleTests@6eda5c9]" started-at="2023-04-04T15:38:11 EDT" name="setUp" finished-at="2023-04-04T15:38:22 EDT" duration-ms="10963" status="PASS">
+    <test started-at="2023-04-04T17:30:19 EDT" name="Default test" finished-at="2023-04-04T17:30:30 EDT" duration-ms="11577">
+      <class name="objRepJson.JsonSampleTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:objRepJson.JsonSampleTests@43195e57]" started-at="2023-04-04T17:30:19 EDT" name="setUp" finished-at="2023-04-04T17:30:30 EDT" duration-ms="11145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="EnterValue()[pri:0, instance:objRepSample.SampleTests@6eda5c9]" started-at="2023-04-04T15:38:22 EDT" name="EnterValue" finished-at="2023-04-04T15:38:22 EDT" duration-ms="87" status="PASS">
+        <test-method signature="EnterValue()[pri:0, instance:objRepJson.JsonSampleTests@43195e57]" started-at="2023-04-04T17:30:30 EDT" name="EnterValue" finished-at="2023-04-04T17:30:30 EDT" duration-ms="65" status="FAIL">
+          <exception class="com.jayway.jsonpath.PathNotFoundException">
+            <message>
+              <![CDATA[Expected to find an object with property ['FirstName'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property ['FirstName'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.jayway.jsonpath.PathNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterValue -->
-        <test-method signature="FindPartialLink()[pri:0, instance:objRepSample.SampleTests@6eda5c9]" started-at="2023-04-04T15:38:22 EDT" name="FindPartialLink" finished-at="2023-04-04T15:38:24 EDT" duration-ms="1371" status="PASS">
+        <test-method signature="FindPartialLink()[pri:0, instance:objRepJson.JsonSampleTests@43195e57]" started-at="2023-04-04T17:30:30 EDT" name="FindPartialLink" finished-at="2023-04-04T17:30:30 EDT" duration-ms="2" status="FAIL">
+          <exception class="com.jayway.jsonpath.PathNotFoundException">
+            <message>
+              <![CDATA[Expected to find an object with property ['PartialLink'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property ['PartialLink'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.jayway.jsonpath.PathNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FindPartialLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:objRepSample.SampleTests@6eda5c9]" started-at="2023-04-04T15:38:24 EDT" name="tearDown" finished-at="2023-04-04T15:38:24 EDT" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:objRepJson.JsonSampleTests@43195e57]" started-at="2023-04-04T17:30:30 EDT" name="tearDown" finished-at="2023-04-04T17:30:30 EDT" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- objRepSample.SampleTests -->
+      </class> <!-- objRepJson.JsonSampleTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

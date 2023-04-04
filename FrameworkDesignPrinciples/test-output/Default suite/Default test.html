@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 04 15:38:11 EDT 2023</td>
+<td>Started on:</td><td>Tue Apr 04 17:30:19 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12820 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11577 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,23 +67,29 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='objRepSample.SampleTests.EnterValue()'><b>EnterValue</b><br>Test class: objRepSample.SampleTests</td>
-<td></td>
+<td title='objRepJson.JsonSampleTests.FindPartialLink()'><b>FindPartialLink</b><br>Test class: objRepJson.JsonSampleTests</td>
+<td><div><pre>com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property [&apos;PartialLink&apos;] in path $ but found &apos;java.lang.String&apos;. This is not a json object according to the JsonProvider: &apos;com.jayway.jsonpath.spi.json.JsonSmartJsonProvider&apos;.
+</pre></div><a href='#' onClick='toggleBox("stack-trace634638280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace634638280'><pre>com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property [&apos;PartialLink&apos;] in path $ but found &apos;java.lang.String&apos;. This is not a json object according to the JsonProvider: &apos;com.jayway.jsonpath.spi.json.JsonSmartJsonProvider&apos;.
+</pre></div></td>
 <td>0</td>
-<td>objRepSample.SampleTests@6eda5c9</td></tr>
+<td>objRepJson.JsonSampleTests@43195e57</td></tr>
 <tr>
-<td title='objRepSample.SampleTests.FindPartialLink()'><b>FindPartialLink</b><br>Test class: objRepSample.SampleTests</td>
-<td></td>
-<td>1</td>
-<td>objRepSample.SampleTests@6eda5c9</td></tr>
+<td title='objRepJson.JsonSampleTests.EnterValue()'><b>EnterValue</b><br>Test class: objRepJson.JsonSampleTests</td>
+<td><div><pre>com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property [&apos;FirstName&apos;] in path $ but found &apos;java.lang.String&apos;. This is not a json object according to the JsonProvider: &apos;com.jayway.jsonpath.spi.json.JsonSmartJsonProvider&apos;.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1292570580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1292570580'><pre>com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property [&apos;FirstName&apos;] in path $ but found &apos;java.lang.String&apos;. This is not a json object according to the JsonProvider: &apos;com.jayway.jsonpath.spi.json.JsonSmartJsonProvider&apos;.
+</pre></div></td>
+<td>0</td>
+<td>objRepJson.JsonSampleTests@43195e57</td></tr>
 </table><p>
 </body>
 </html>
