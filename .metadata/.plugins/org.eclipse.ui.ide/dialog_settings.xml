@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.m2e"/>
@@ -22,6 +22,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Feb2023\DemoMavenProject"/>
+			<item value="C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Feb2023\Selenium-FrameworkDesign"/>
 			<item value="C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Feb2023\KeywordFramework"/>
 			<item value="C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Feb2023"/>
 			<item value="C:\Users\chuyp\OneDrive\Documentos\Personal\Trainings\Selenium\Workspaces\2023-Feb"/>

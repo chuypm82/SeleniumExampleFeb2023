@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\625337\Documents\Personal\Trainings\Maven\Selenium-FrameworkDesign\testSuites\Purchase.xml</span>
+                    <span>C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Feb2023\Selenium-FrameworkDesign\testSuites\Purchase.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,26 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  2 skipped,  </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="army.tests.SubmitOrderTestImproved" class="method navigator-link" hash-for-method="submitOrder({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com})">submitOrder({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="army.tests.SubmitOrderTestImproved" class="method navigator-link" hash-for-method="submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})">submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="army.tests.SubmitOrderTestImproved" class="method navigator-link" hash-for-method="submitOrder({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com})">submitOrder({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -124,65 +124,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">army.tests.SubmitOrderTestImproved</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com})">
-                  </a> <!-- submitOrder({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com})</span>
-                  <div class="stack-trace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:58421/devtools/browser/8d298700-abf8-4a76-904f-0416d8ee51e5
-Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;BAH5Q3C9J3&apos;, ip: &apos;192.168.0.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at army.TestComponents.BaseTest.initializeDriver(BaseTest.java:56)
-	at army.TestComponents.BaseTest.launchApplication(BaseTest.java:108)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})">
                   </a> <!-- submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com}) -->
                   <span class="method-name">submitOrder</span>
                   <span class="parameters">({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null
-	at army.TestComponents.BaseTest.tearDown(BaseTest.java:118)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 23 stack frames
-</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com})">
+                  </a> <!-- submitOrder({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\625337\Documents\Personal\Trainings\Maven\Selenium-FrameworkDesign\testSuites\Purchase.xml</span>
+            <span class="header-content">C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Feb2023\Selenium-FrameworkDesign\testSuites\Purchase.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -199,6 +168,9 @@ Driver info: driver.version: ChromeDriver
       &lt;include name=&quot;Purchase&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;army.TestComponents.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Submit Order Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;army.tests.SubmitOrderTestImproved&quot;/&gt;
@@ -261,16 +233,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'submitOrder')
 data.setCell(0, 2, 'army.tests.SubmitOrderTestImproved')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 5080);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'submitOrder')
 data.setCell(1, 2, 'army.tests.SubmitOrderTestImproved')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 5039);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -314,36 +286,28 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">army.tests.SubmitOrderTestImproved</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApplication</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">submitOrder({password=Hello1234!, product=ZARA COAT 3, email=chuy@bah.com})</span>
-                <span class="method-start">4488 ms</span>
+                <span class="method-start">7143 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4490 ms</span>
+                <span class="method-start">12184 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">4492 ms</span>
+                <span class="method-start">12315 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})</span>
-                <span class="method-start">6522 ms</span>
+                <span class="method-start">17875 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6523 ms</span>
+                <span class="method-start">22957 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

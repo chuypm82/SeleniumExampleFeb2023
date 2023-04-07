@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Asserts.TestAssertion">
+      <class name="TestNGSample4.ChromeTest">
         <methods>
-          <include name="testPrintMessage"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="ChromeTestMethod"/>
         </methods>
-      </class> <!-- Asserts.TestAssertion -->
+      </class> <!-- TestNGSample4.ChromeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

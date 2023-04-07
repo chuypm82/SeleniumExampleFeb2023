@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="army.tests.ErrorValidationsTest">
+      <class name="army.tests.SubmitOrderTestImproved">
         <methods>
           <include name="launchApplication"/>
           <include name="tearDown"/>
-          <include name="ProductErrorValidation"/>
+          <include name="OrderHistoryTest"/>
+          <include name="submitOrder"/>
         </methods>
-      </class> <!-- army.tests.ErrorValidationsTest -->
+      </class> <!-- army.tests.SubmitOrderTestImproved -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

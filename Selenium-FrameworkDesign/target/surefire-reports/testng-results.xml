@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-20T14:34:24 EDT" name="Suite" finished-at="2022-10-20T14:35:11 EDT" duration-ms="46893">
+  <suite started-at="2023-04-05T16:52:49 EDT" name="Suite" finished-at="2023-04-05T16:53:12 EDT" duration-ms="23400">
     <groups>
-      <group name="ErrorHandling">
-        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:army.tests.ErrorValidationsTest@55de24cc]" name="LoginErrorValidation" class="army.tests.ErrorValidationsTest"/>
-      </group> <!-- ErrorHandling -->
       <group name="Purchase">
-        <method signature="SubmitOrderTestImproved.submitOrder(java.util.HashMap)[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" name="submitOrder" class="army.tests.SubmitOrderTestImproved"/>
+        <method signature="SubmitOrderTestImproved.submitOrder(java.util.HashMap)[pri:0, instance:army.tests.SubmitOrderTestImproved@312aa7c]" name="submitOrder" class="army.tests.SubmitOrderTestImproved"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2022-10-20T14:34:24 EDT" name="Submit Order Test" finished-at="2022-10-20T14:34:55 EDT" duration-ms="30864">
+    <test started-at="2023-04-05T16:52:49 EDT" name="Error Validatons Test" finished-at="2023-04-05T16:52:49 EDT" duration-ms="6">
+    </test> <!-- Error Validatons Test -->
+    <test started-at="2023-04-05T16:52:49 EDT" name="Submit Order Test" finished-at="2023-04-05T16:53:12 EDT" duration-ms="23400">
       <class name="army.tests.SubmitOrderTestImproved">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" started-at="2022-10-20T14:34:24 EDT" name="launchApplication" finished-at="2022-10-20T14:34:32 EDT" duration-ms="7958" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:army.tests.SubmitOrderTestImproved@312aa7c]" started-at="2023-04-05T16:52:49 EDT" name="launchApplication" finished-at="2023-04-05T16:52:56 EDT" duration-ms="7320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" started-at="2022-10-20T14:34:32 EDT" name="submitOrder" data-provider="getData" finished-at="2022-10-20T14:34:37 EDT" duration-ms="5170" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:army.tests.SubmitOrderTestImproved@312aa7c]" started-at="2023-04-05T16:52:56 EDT" name="submitOrder" data-provider="getData" finished-at="2023-04-05T16:53:01 EDT" duration-ms="5128" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" started-at="2022-10-20T14:34:37 EDT" name="tearDown" finished-at="2022-10-20T14:34:37 EDT" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:army.tests.SubmitOrderTestImproved@312aa7c]" started-at="2023-04-05T16:53:01 EDT" name="tearDown" finished-at="2023-04-05T16:53:02 EDT" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" started-at="2022-10-20T14:34:37 EDT" name="launchApplication" finished-at="2022-10-20T14:34:43 EDT" duration-ms="5703" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:army.tests.SubmitOrderTestImproved@312aa7c]" started-at="2023-04-05T16:53:02 EDT" name="launchApplication" finished-at="2023-04-05T16:53:07 EDT" duration-ms="5466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" started-at="2022-10-20T14:34:43 EDT" name="submitOrder" data-provider="getData" finished-at="2022-10-20T14:34:48 EDT" duration-ms="4998" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:army.tests.SubmitOrderTestImproved@312aa7c]" started-at="2023-04-05T16:53:07 EDT" name="submitOrder" data-provider="getData" finished-at="2023-04-05T16:53:12 EDT" duration-ms="5024" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,51 +46,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" started-at="2022-10-20T14:34:48 EDT" name="tearDown" finished-at="2022-10-20T14:34:48 EDT" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" started-at="2022-10-20T14:34:48 EDT" name="launchApplication" finished-at="2022-10-20T14:34:54 EDT" duration-ms="6043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" started-at="2022-10-20T14:34:54 EDT" name="OrderHistoryTest" finished-at="2022-10-20T14:34:55 EDT" depends-on-methods="army.tests.SubmitOrderTestImproved.submitOrder" duration-ms="714" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:army.tests.SubmitOrderTestImproved@59402b8f]" started-at="2022-10-20T14:34:55 EDT" name="tearDown" finished-at="2022-10-20T14:34:55 EDT" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:army.tests.SubmitOrderTestImproved@312aa7c]" started-at="2023-04-05T16:53:12 EDT" name="tearDown" finished-at="2023-04-05T16:53:12 EDT" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- army.tests.SubmitOrderTestImproved -->
     </test> <!-- Submit Order Test -->
-    <test started-at="2022-10-20T14:34:55 EDT" name="Error Validatons Test" finished-at="2022-10-20T14:35:11 EDT" duration-ms="15795">
-      <class name="army.tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:army.tests.ErrorValidationsTest@55de24cc]" started-at="2022-10-20T14:34:55 EDT" name="launchApplication" finished-at="2022-10-20T14:35:01 EDT" duration-ms="5802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="LoginErrorValidation()[pri:0, instance:army.tests.ErrorValidationsTest@55de24cc]" started-at="2022-10-20T14:35:01 EDT" name="LoginErrorValidation" finished-at="2022-10-20T14:35:01 EDT" duration-ms="625" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:army.tests.ErrorValidationsTest@55de24cc]" started-at="2022-10-20T14:35:01 EDT" name="tearDown" finished-at="2022-10-20T14:35:01 EDT" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:army.tests.ErrorValidationsTest@55de24cc]" started-at="2022-10-20T14:35:01 EDT" name="launchApplication" finished-at="2022-10-20T14:35:06 EDT" duration-ms="5134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="ProductErrorValidation()[pri:0, instance:army.tests.ErrorValidationsTest@55de24cc]" started-at="2022-10-20T14:35:06 EDT" name="ProductErrorValidation" finished-at="2022-10-20T14:35:11 EDT" duration-ms="4180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:army.tests.ErrorValidationsTest@55de24cc]" started-at="2022-10-20T14:35:11 EDT" name="tearDown" finished-at="2022-10-20T14:35:11 EDT" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- army.tests.ErrorValidationsTest -->
-    </test> <!-- Error Validatons Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -6,23 +6,23 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Driver"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="Purchase"/>
+			<item value="not a link"/>
+			<item value="valid"/>
+			<item value="broken"/>
+			<item value="mouseMove"/>
+			<item value="json"/>
+			<item value="sData"/>
+			<item value="getRowContains"/>
+			<item value="Check box element"/>
 			<item value="driver"/>
 			<item value="for purchase "/>
 			<item value="Username text box not found on Login page"/>
 			<item value="Check Out"/>
 			<item value="Logout element found"/>
 			<item value="Logout element"/>
-			<item value="Logout "/>
-			<item value="Logout element found "/>
-			<item value="Login button found"/>
-			<item value="Log Out button found"/>
-			<item value="Log Out button found "/>
-			<item value="endTestCase"/>
-			<item value="setCellData"/>
-			<item value="setExcelFile"/>
-			<item value="getCellData"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
@@ -35,8 +35,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1314"/>
-		<item key="DIALOG_Y_ORIGIN" value="512"/>
+		<item key="DIALOG_X_ORIGIN" value="1179"/>
+		<item key="DIALOG_Y_ORIGIN" value="457"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="402"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
